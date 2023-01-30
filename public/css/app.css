@@ -10428,5 +10428,78 @@ readers do not read off random characters that represent icons */
 }
 
 body {
+  background-color: green;
+  width: 100%;
+  height: 600px;
+}
+
+nav {
   font-family: "Josefin Sans", sans-serif;
+  font-size: x-large;
+}
+nav .containerNavbar {
+  background-color: blue;
+  display: flex;
+  gap: 10em;
+  justify-content: center;
+  margin-right: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  align-items: center;
+}
+nav .containerNavbar span {
+  margin: auto;
+  background-color: red;
+  border-radius: 10px;
+  padding: 7px;
+  font-weight: bold;
+  bottom: 2.5em;
+  left: 61em;
+  position: relative;
+  color: white;
+  font-size: small;
+  box-shadow: 2px 2px 5px black;
+}
+nav .milieuNavbar {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+nav .finNavbar {
+  display: flex;
+  gap: 1.7em;
+}
+
+.containerDropdownLatest {
+  visibility: hidden;
+  display: flex;
+  position: relative;
+  z-index: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdownLatest {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  width: 10em;
+  gap: 15px;
+  height: 6em;
+  margin-left: 220px;
+  border-top: red 5px solid;
+  flex-direction: column;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.dropdownLatest div {
+  margin-left: 20px;
+}
+
+.latestNavbar:hover .containerDropdownLatest {
+  visibility: visible;
+}
+
+.latestNavbar {
+  position: relative;
 }

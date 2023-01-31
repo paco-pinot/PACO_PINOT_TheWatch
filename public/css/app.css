@@ -10750,20 +10750,21 @@ readers do not read off random characters that represent icons */
   width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 .section5 .containerSection5 .containerPlay {
   width: 100%;
-  height: 100%;
+  height: 55%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  margin-top: 20px;
   color: white;
   font-size: 5em;
   position: relative;
 }
 .section5 .containerSection5 .bottomSection5 {
-  top: 100;
-  position: absolute;
+  margin-top: 12%;
   display: flex;
   justify-content: space-around;
   align-items: center;

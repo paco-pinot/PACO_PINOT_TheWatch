@@ -10548,15 +10548,45 @@ readers do not read off random characters that represent icons */
   width: 100%;
   overflow: hidden;
 }
+.section3 .containerS3 .s3Gauche, .section3 .containerS3 .s3Milieu {
+  overflow: hidden;
+}
+.section3 .containerS3 .s3Gauche img, .section3 .containerS3 .s3Milieu img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: 1s;
+}
+.section3 .containerS3 .s3Gauche img:hover, .section3 .containerS3 .s3Milieu img:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+  filter: grayscale(60%);
+}
 .section3 .containerS3 .s3Droite {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 1.7em;
 }
-.section3 .containerS3 .s3Droite .s3HautDroite {
+.section3 .containerS3 .s3Droite img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: 1s;
+}
+.section3 .containerS3 .s3Droite img:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+  filter: grayscale(60%);
+}
+.section3 .containerS3 .s3HautDroite {
+  overflow: hidden;
   height: 50%;
 }
-.section3 .containerS3 .s3Droite .s3BasDroite {
+.section3 .containerS3 .s3BasDroite {
+  overflow: hidden;
   height: 50%;
 }
 

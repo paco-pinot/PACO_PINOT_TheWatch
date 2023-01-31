@@ -9,10 +9,11 @@
     }
     p{
         color: grey;
-        margin-left:20% ;
-        margin-right: 20%;
+        margin-left:25% ;
+        margin-right: 25%;
         font-size: larger;
         text-align: center;
+        margin-bottom: 2em;
     }
     .containerMontresSection4{
         display: flex;
@@ -20,7 +21,66 @@
         .hautMontresSection4,.basMontresSection4{
             display: flex;
             gap: 2em;
+            .montreSection4{
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+                margin-bottom: 2em;
+                .imgSection4{
+                    border-bottom: 3px solid red;
+                }
+                // .imgSection4:hover{
+                    
+
+                // }
+                .texteSection4{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1em;
+                    span{
+                        font-weight: bold;
+                        font-size: x-large;
+                    }
+                    .prixSection4{
+                        font-weight: normal;
+                        font-size: large;
+                    }
+                }
+            }
+
+            
         }
     }
+    .outerSection4 {
+        color: white;
+    }
     
+    .buttonSection4 {
+        padding: 10px;
+        height: 30px;
+        display: block;
+        background: linear-gradient(to right, red 50%,  #4A4A4B 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+    }
+    .buttonSection4:hover {
+        background-position: left bottom;
+    }
+    
+    .textBtnSection4 {
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+        line-height: 30px; 
+        color: white;
+        transition: all .6s ease-out;
+        display: block;
+    }
+    
+    .textBtnSection4:hover {
+        color: white;  
+    }
 }

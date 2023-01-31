@@ -10591,13 +10591,21 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 800px) {
-  .containerS3 {
-    flex-direction: column;
+  .section3 {
+    margin-top: 6em;
   }
-  .containerS3 img {
+  .section3 .containerS3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+  }
+  .section3 .containerS3 img {
     width: 90%;
     height: 90%;
-    border-radius: 50%;
+  }
+  .s3Droite {
+    gap: 4em;
   }
 }
 body {

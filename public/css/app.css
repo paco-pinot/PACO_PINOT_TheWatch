@@ -10524,6 +10524,27 @@ readers do not read off random characters that represent icons */
     flex-direction: column;
   }
 }
+.section3 {
+  margin-top: 3em;
+}
+.section3 .containerS3 {
+  display: flex;
+  gap: 1.7em;
+  width: 100%;
+  overflow: hidden;
+}
+.section3 .containerS3 .s3Droite {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+}
+.section3 .containerS3 .s3Droite .s3HautDroite {
+  height: 50%;
+}
+.section3 .containerS3 .s3Droite .s3BasDroite {
+  height: 50%;
+}
+
 body {
   margin: 0;
 }

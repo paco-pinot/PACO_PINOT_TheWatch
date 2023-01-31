@@ -1,0 +1,20 @@
+.section3{
+    margin-top: 3em;
+    .containerS3{
+        display: flex;
+        gap: 1.7em;
+        width: 100%;
+        overflow: hidden;
+        .s3Droite{
+            display: flex;
+            flex-direction: column;
+            gap: 1.7em;
+            .s3HautDroite{
+                height: 50%;
+            }
+            .s3BasDroite{
+                height: 50%;
+            }
+        }
+    }
+}

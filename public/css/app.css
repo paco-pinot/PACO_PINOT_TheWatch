@@ -10430,14 +10430,110 @@ readers do not read off random characters that represent icons */
 .section1 {
   background-color: #F0F0F2;
 }
+.section1 .containerSection1 {
+  display: flex;
+  margin: 0;
+  margin-left: 15%;
+  margin-right: 10%;
+  align-items: center;
+}
+.section1 .containerSection1 h2 {
+  margin: 0;
+  font-size: 6em;
+  margin-bottom: 0.7em;
+}
+.section1 .containerSection1 p {
+  font-size: larger;
+  margin-bottom: 0.7em;
+}
+.section1 .containerSection1 button:hover {
+  background-position: left bottom;
+}
+.section1 .containerSection1 button {
+  color: white;
+  background: #4A4A4B;
+  padding: 12px 17px;
+  border: 3px solid #31302B;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #4A4A4B;
+  transition: all ease 1s;
+  border: none;
+}
+.section1 .containerSection1 button:hover {
+  box-shadow: inset 200px 0 0 0 red;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .containerSection1 {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .containerSection1 h2 {
+    font-size: larger;
+  }
+  .containerSection1 button {
+    margin-bottom: 2em;
+  }
+  .containerSection1 .rolexSection1 {
+    display: none;
+  }
+}
+.section2 {
+  margin-left: 15%;
+  margin-top: 4em;
+}
+.section2 h2 {
+  font-size: xx-large;
+}
+.section2 .containerArrivals {
+  display: flex;
+  gap: 2em;
+}
+.section2 .containerArrivals .section2Texte, .section2 .containerArrivals .section2Texte2, .section2 .containerArrivals .section2Texte3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.section2 .containerArrivals .section2Texte span, .section2 .containerArrivals .section2Texte2 span, .section2 .containerArrivals .section2Texte3 span {
+  font-size: x-large;
+  margin-top: 2em;
+}
+.section2 .containerArrivals .section2Texte .prixArrivals, .section2 .containerArrivals .section2Texte2 .prixArrivals, .section2 .containerArrivals .section2Texte3 .prixArrivals {
+  color: red;
+  margin: 0;
+  font-size: larger;
+}
+
+@media (max-width: 800px) {
+  .section2 {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2 .containerArrivals {
+    flex-direction: column;
+  }
+}
 body {
-  background-color: green;
+  margin: 0;
+}
+
+body {
   width: 100%;
-  height: 600px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 nav {
-  font-family: "Josefin Sans", sans-serif;
   font-size: x-large;
 }
 nav .containerNavbar {
@@ -10474,8 +10570,7 @@ nav .finNavbar {
 }
 
 .containerDropdownLatest {
-  visibility: hidden;
-  display: flex;
+  display: none;
   position: relative;
   z-index: 600;
   align-items: center;
@@ -10500,7 +10595,7 @@ nav .finNavbar {
 }
 
 .latestNavbar:hover .containerDropdownLatest {
-  visibility: visible;
+  display: flex;
 }
 
 .latestNavbar {

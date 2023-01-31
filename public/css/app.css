@@ -10662,7 +10662,7 @@ readers do not read off random characters that represent icons */
 }
 .section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4:hover .addSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4:hover .addSection4 {
   visibility: visible;
-  height: 50px;
+  transform: translateY(-100%);
 }
 .section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4 {
   position: absolute;
@@ -10671,7 +10671,7 @@ readers do not read off random characters that represent icons */
   bottom: 0;
 }
 .section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4 .addSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4 .addSection4 {
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10679,7 +10679,8 @@ readers do not read off random characters that represent icons */
   background-color: red;
   color: white;
   width: 100%;
-  height: 0px;
+  height: 50px;
+  transform: translateY(0, 0);
   cursor: pointer;
 }
 .section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4 .coeurSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4 .coeurSection4 {

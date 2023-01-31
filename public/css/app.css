@@ -10447,23 +10447,6 @@ readers do not read off random characters that represent icons */
   font-size: larger;
   margin-bottom: 0.7em;
 }
-.section1 .containerSection1 .outer {
-  color: white;
-}
-.section1 .containerSection1 .button {
-  padding: 5px;
-  border-radius: 3px;
-  width: 150px;
-  height: 30px;
-  display: block;
-  background: linear-gradient(to right, #4A4A4B 50%, red 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 0.5s ease-out;
-}
-.section1 .containerSection1 .button:hover {
-  background-position: left bottom;
-}
 .section1 .containerSection1 .text {
   cursor: pointer;
   text-align: center;
@@ -10475,6 +10458,26 @@ readers do not read off random characters that represent icons */
 }
 .section1 .containerSection1 .text:hover {
   color: white;
+}
+
+.outer {
+  color: white;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 3px;
+  width: 150px;
+  height: 30px;
+  display: block;
+  background: linear-gradient(to right, #4A4A4B 50%, red 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+
+.button:hover {
+  background-position: left bottom;
 }
 
 @media (max-width: 800px) {
@@ -10809,6 +10812,61 @@ readers do not read off random characters that represent icons */
     visibility: hidden;
   }
 }
+.section6 {
+  margin-top: 10em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.section6 .containerSection6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.section6 .containerSection6 h3 {
+  font-size: xx-large;
+}
+.section6 .containerSection6 p {
+  font-size: large;
+  color: grey;
+  margin-bottom: 2em;
+}
+.section6 .containerSection6 .basSection6 {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+}
+.section6 .containerSection6 .hautSection6 {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+}
+.section6 .containerSection6 .hautSection6 .basDroiteSection6 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section6 .containerSection6 .hautSection6 .basGaucheSection6 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section6 .containerSection6 .hautSection6 .gaucheHautSection6 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section6 .containerSection6 .hautSection6 .droitHautSection6 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   margin: 0;
 }

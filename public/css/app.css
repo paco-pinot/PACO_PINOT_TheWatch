@@ -10762,18 +10762,42 @@ readers do not read off random characters that represent icons */
   color: white;
   font-size: 5em;
   position: relative;
+  cursor: pointer;
 }
 .section5 .containerSection5 .bottomSection5 {
-  margin-top: 12%;
+  margin-top: 6%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 2em;
   color: white;
+  font-size: x-large;
   width: 30%;
-  height: 20%;
+  height: 30%;
   display: flex;
   background-color: red;
+}
+
+.containerModalSection5 {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.774);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.containerModalSection5 .videoSection5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 body {

@@ -63,3 +63,20 @@ section2.appendChild(containerArrivals)
     containerArrivals.appendChild(div3Arrivals)
         div3Arrivals.appendChild(section2Img3)
         div3Arrivals.appendChild(section2Texte3)
+
+
+// ________________MODAL SECTION5____________________
+
+let btnPlaySection5 = document.querySelector(".fa-circle-play")
+let containerModalSection5 = document.querySelector(".containerModalSection5")
+let containerSection5 = document.querySelector(".containerSection5")
+
+btnPlaySection5.addEventListener("click",function () {
+    containerSection5.style.display ="none"
+    containerModalSection5.style.display = "flex"
+})
+
+containerModalSection5.addEventListener("click",function () {
+    containerModalSection5.style.display = "none"
+    containerSection5.style.display ="block"
+})

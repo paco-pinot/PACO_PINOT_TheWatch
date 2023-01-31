@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 4em;
+    width: 100%;
     h2{
         font-size: xx-large;
     }
@@ -16,6 +17,7 @@
         margin-bottom: 2em;
     }
     .containerMontresSection4{
+        height: 100%;
         display: flex;
         flex-direction: column;
         .hautMontresSection4,.basMontresSection4{
@@ -26,13 +28,59 @@
                 flex-direction: column;
                 gap: 2em;
                 margin-bottom: 2em;
+                position: relative;
                 .imgSection4{
                     border-bottom: 3px solid red;
+                    // transition: 1s;
                 }
-                // .imgSection4:hover{
+                .popSection4:hover .imgSection4{
+                    border: green;
+                }
+                .popSection4:hover .coeurSection4{
+                    display: flex;
+                    visibility: visible;
+                }
+                .popSection4:hover .addSection4{
+                    visibility: visible;
+                    height:50px;
                     
+                }
+                .popSection4{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    bottom: 0;
+                    .addSection4{
+                        
+                        transition: 1s ease-in-out;
+                        display:flex;
+                        flex-direction: column;
+                        // visibility: hidden;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: red;
+                        color: white;
+                        width: 100%;
+                        height: 0px;
+                        
+                        cursor: pointer;
+                    }
+                    .coeurSection4{
+                        width: 100%;
+                        height: 70%;
+                        font-size: xx-large;
+                        cursor: pointer;
+                        display: flex;
+                        visibility: hidden;
+                        justify-content: end;
+                        i{
+                            margin: 20px;
+                        }
+                    }
+                    
+                
+                }
 
-                // }
                 .texteSection4{
                     display: flex;
                     flex-direction: column;

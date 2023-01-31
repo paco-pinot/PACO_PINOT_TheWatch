@@ -10608,6 +10608,32 @@ readers do not read off random characters that represent icons */
     gap: 4em;
   }
 }
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+.section4 h2 {
+  font-size: xx-large;
+}
+.section4 p {
+  color: grey;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: larger;
+  text-align: center;
+}
+.section4 .containerMontresSection4 {
+  display: flex;
+  flex-direction: column;
+}
+.section4 .containerMontresSection4 .hautMontresSection4, .section4 .containerMontresSection4 .basMontresSection4 {
+  display: flex;
+  gap: 2em;
+}
+
 body {
   margin: 0;
 }

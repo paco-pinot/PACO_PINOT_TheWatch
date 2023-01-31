@@ -8,6 +8,19 @@
         display: flex;
         // justify-content: center;
         gap: 2em;
+        .section2Img,.section2Img2,.section2Img3{
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                transition: 1s;
+            }
+            img:hover{
+                transform: scale(1.1);
+                transition-duration: 1s;
+            }
+        }
         .section2Texte,.section2Texte2,.section2Texte3{
             display: flex;
             flex-direction: column;

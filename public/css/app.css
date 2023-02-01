@@ -10915,6 +10915,14 @@ readers do not read off random characters that represent icons */
   color: rgba(255, 255, 255, 0.774);
 }
 
+@media (max-width: 800px) {
+  .section7 {
+    margin-top: 4em;
+  }
+  .section7 .containerSection7 {
+    flex-direction: column;
+  }
+}
 body {
   margin: 0;
 }

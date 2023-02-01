@@ -10653,6 +10653,58 @@ readers do not read off random characters that represent icons */
   margin-bottom: 2em;
   position: relative;
 }
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .container, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .container {
+  position: relative;
+  width: 100%;
+  border-bottom: solid red 4px;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .coeurSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .coeurSection4 {
+  width: 100%;
+  position: absolute;
+  font-size: xx-large;
+  cursor: pointer;
+  display: flex;
+  top: 0;
+  justify-content: end;
+  visibility: hidden;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .coeurSection4 i, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .coeurSection4 i {
+  margin: 20px;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .coeurSection4 i:hover, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .coeurSection4 i:hover {
+  color: red;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .container:hover .coeurSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .container:hover .coeurSection4 {
+  visibility: visible;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .image, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .overlay, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .container:hover .overlay, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .container:hover .overlay {
+  height: 20%;
+}
+.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .text, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .imgSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .imgSection4 {
   border-bottom: 3px solid red;
 }
@@ -10685,18 +10737,6 @@ readers do not read off random characters that represent icons */
   height: 50px;
   transform: translateY(0, 0);
   cursor: pointer;
-}
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4 .coeurSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4 .coeurSection4 {
-  width: 100%;
-  height: 70%;
-  font-size: xx-large;
-  cursor: pointer;
-  display: flex;
-  visibility: hidden;
-  justify-content: end;
-}
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4 .coeurSection4 i, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4 .coeurSection4 i {
-  margin: 20px;
 }
 .section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .texteSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .texteSection4 {
   display: flex;

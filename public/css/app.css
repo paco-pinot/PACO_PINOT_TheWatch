@@ -11003,10 +11003,10 @@ nav .finNavbar {
 
 footer {
   margin-top: 10em;
-}
-footer .containerFooter {
   margin-left: 10%;
   margin-right: 10%;
+}
+footer .containerFooter {
   display: flex;
   color: grey;
 }
@@ -11031,4 +11031,11 @@ footer .containerFooter ul {
   padding: 0;
   line-height: 2.5em;
   font-size: large;
+}
+footer .reseauxFooter {
+  display: flex;
+  gap: 2em;
+  font-size: x-large;
+  margin-top: 4em;
+  justify-content: end;
 }

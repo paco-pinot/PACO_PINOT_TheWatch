@@ -46,3 +46,19 @@
         }
     }
 }
+
+
+@media (max-width: 800px){
+    .section2Caroussel{
+        margin: 0 !important;
+        margin-top: 7em !important;
+        .containerCaroussel{
+            margin: 0 !important;
+            justify-content: none !important;
+            .imm{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

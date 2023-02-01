@@ -11156,3 +11156,18 @@ footer .reseauxFooter {
 .section2Caroussel .containerCaroussel .btnRightCaroussel:hover {
   background-color: grey;
 }
+
+@media (max-width: 800px) {
+  .section2Caroussel {
+    margin: 0 !important;
+    margin-top: 7em !important;
+  }
+  .section2Caroussel .containerCaroussel {
+    margin: 0 !important;
+    justify-content: none !important;
+  }
+  .section2Caroussel .containerCaroussel .imm {
+    width: 100%;
+    height: 100%;
+  }
+}

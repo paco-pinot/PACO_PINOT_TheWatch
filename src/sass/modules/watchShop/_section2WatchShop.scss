@@ -1,6 +1,43 @@
 .section2Caroussel{
     margin: 10%;
     .containerCaroussel{
-        
+        display: flex;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        align-items: center;
+        position: relative;
+        .imm{
+            width: 995px;
+            height: 668px;
+        }
+        .caroussel1{
+            
+        }
+        .caroussel2{
+            display: none;
+            
+        }
+        .caroussel3{
+            display: none;
+           
+        }
+        .caroussel4{
+            display: none;
+        }
+        .btnLeftCaroussel,.btnRightCaroussel{
+            position: absolute;
+            border-radius: 50%;
+            padding: 20px;
+            border: none;
+            color: white;
+            background-color: rgba(128, 128, 128, 0.457);
+        }
+        .btnLeftCaroussel{
+            left: 0;
+        }
+        .btnRightCaroussel{
+            right: 0;
+        }
     }
 }

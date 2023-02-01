@@ -11113,3 +11113,38 @@ footer .reseauxFooter {
 .section2Caroussel {
   margin: 10%;
 }
+.section2Caroussel .containerCaroussel {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+  position: relative;
+}
+.section2Caroussel .containerCaroussel .imm {
+  width: 995px;
+  height: 668px;
+}
+.section2Caroussel .containerCaroussel .caroussel2 {
+  display: none;
+}
+.section2Caroussel .containerCaroussel .caroussel3 {
+  display: none;
+}
+.section2Caroussel .containerCaroussel .caroussel4 {
+  display: none;
+}
+.section2Caroussel .containerCaroussel .btnLeftCaroussel, .section2Caroussel .containerCaroussel .btnRightCaroussel {
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  border: none;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.457);
+}
+.section2Caroussel .containerCaroussel .btnLeftCaroussel {
+  left: 0;
+}
+.section2Caroussel .containerCaroussel .btnRightCaroussel {
+  right: 0;
+}

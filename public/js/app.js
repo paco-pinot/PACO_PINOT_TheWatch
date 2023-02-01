@@ -1,14 +1,3 @@
-let containerDropdownLatest = document.querySelector(".containerDropdownLatest")
-let dropdownLatest = document.querySelector(".dropdownLatest")
-let btnLatest = document.querySelector(".latestNavbar")
-console.log(containerDropdownLatest,dropdownLatest,btnLatest);
-// btnLatest.addEventListener("mouseover",function () {
-//     containerDropdownLatest.style.display ="flex"
-// })
-
-// dropdownLatest.addEventListener("mouseout",function () {
-//     containerDropdownLatest.style.display ="none"
-// })
 
 // _________________SECTION 2 (ARRIVALS) _______________________
 
@@ -80,3 +69,5 @@ containerModalSection5.addEventListener("click",function () {
     containerModalSection5.style.display = "none"
     containerSection5.style.display ="block"
 })
+
+

@@ -4,11 +4,8 @@ footer{
     margin-right: 10%;
     margin-bottom: 5em;
     .containerFooter{
-
         display: flex;
         color: grey;
-        
-       
         .footerBox{
             padding: 2em;
             width: 25%;
@@ -19,9 +16,6 @@ footer{
             h3{
                 visibility: hidden;
             }
-        }
-        .footer4{
-            //  margin-left: 10%;
         }
         h3{
             color: black;
@@ -49,5 +43,33 @@ footer{
         font-size: x-large;
         margin-top: 4em;
         justify-content: end;
+    }
+}
+
+@media (max-width: 800px){
+    footer{
+        margin: 0!important;
+        .containerFooter{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .footerBox{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                ul{
+                    text-align: center;
+                }
+            }
+            .footer1{
+                display: none;
+            }
+        }
+    }
+    .reseauxFooter{
+        justify-content: center!important;
+        align-items: center!important;
     }
 }

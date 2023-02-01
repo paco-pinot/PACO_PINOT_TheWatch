@@ -11048,3 +11048,31 @@ footer .reseauxFooter {
   margin-top: 4em;
   justify-content: end;
 }
+
+@media (max-width: 800px) {
+  footer {
+    margin: 0 !important;
+  }
+  footer .containerFooter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .containerFooter .footerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  footer .containerFooter .footerBox ul {
+    text-align: center;
+  }
+  footer .containerFooter .footer1 {
+    display: none;
+  }
+  .reseauxFooter {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

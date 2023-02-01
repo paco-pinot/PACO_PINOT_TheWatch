@@ -36,8 +36,8 @@
                     position: relative;
                     width: 100%;
                     border-bottom: solid red 4px;
-                  }
-                  .coeurSection4{
+                }
+                .coeurSection4{
                     width: 100%;
                     position: absolute;
                     font-size: xx-large;
@@ -57,13 +57,13 @@
                 .container:hover .coeurSection4{
                     visibility: visible;
                 }
-                  .image {
+                .image {
                     display: block;
                     width: 100%;
                     height: auto;
-                  }
-                  
-                  .overlay {
+                }
+                
+                .overlay {
                     position: absolute;
                     bottom: 0;
                     left: 0;
@@ -73,13 +73,13 @@
                     width: 100%;
                     height: 0;
                     transition: .5s ease;
-                  }
-                  
-                  .container:hover .overlay {
+                }
+                
+                .container:hover .overlay {
                     height: 20%;
-                  }
-                  
-                  .text {
+                }
+                
+                .text {
                     color: white;
                     font-size: 20px;
                     position: absolute;
@@ -89,56 +89,7 @@
                     -ms-transform: translate(-50%, -50%);
                     transform: translate(-50%, -50%);
                     text-align: center;
-                  }
-
-
-
-
-
-
-
-
-
-
-
-                .imgSection4{
-                    border-bottom: 3px solid red;
-                    // transition: 1s;
                 }
-                .popSection4:hover .imgSection4{
-                    border: green;
-                }
-                .popSection4:hover .coeurSection4{
-                    display: flex;
-                    visibility: visible;
-                }
-                .popSection4:hover .addSection4{
-                    visibility: visible;
-                    transform: translateY(-100%);
-                }
-                .popSection4{
-                    position: absolute;
-                    height: 100%;
-                    width: 100%;
-                    bottom: 0;
-                    .addSection4{
-                        transition: 0.5s ease-in-out;
-                        display:flex;
-                        flex-direction: column;
-                        // visibility: hidden;
-                        justify-content: center;
-                        align-items: center;
-                        background-color: red;
-                        color: white;
-                        width: 100%;
-                        height: 50px;
-                        transform: translateY(0,0);
-                        cursor: pointer;
-                        // bottom: -50px;
-                    }
-                   
-                }
-
                 .texteSection4{
                     display: flex;
                     flex-direction: column;
@@ -186,5 +137,12 @@
     
     .textBtnSection4:hover {
         color: white;  
+    }
+}
+
+
+@media (max-width: 800px){
+    .hautMontresSection4,.basMontresSection4{
+        flex-direction: column;
     }
 }

@@ -10705,39 +10705,6 @@ readers do not read off random characters that represent icons */
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .imgSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .imgSection4 {
-  border-bottom: 3px solid red;
-}
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4:hover .imgSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4:hover .imgSection4 {
-  border: green;
-}
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4:hover .coeurSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4:hover .coeurSection4 {
-  display: flex;
-  visibility: visible;
-}
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4:hover .addSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4:hover .addSection4 {
-  visibility: visible;
-  transform: translateY(-100%);
-}
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-}
-.section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .popSection4 .addSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .popSection4 .addSection4 {
-  transition: 0.5s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  color: white;
-  width: 100%;
-  height: 50px;
-  transform: translateY(0, 0);
-  cursor: pointer;
-}
 .section4 .containerMontresSection4 .hautMontresSection4 .montreSection4 .texteSection4, .section4 .containerMontresSection4 .basMontresSection4 .montreSection4 .texteSection4 {
   display: flex;
   flex-direction: column;
@@ -10781,6 +10748,11 @@ readers do not read off random characters that represent icons */
   color: white;
 }
 
+@media (max-width: 800px) {
+  .hautMontresSection4, .basMontresSection4 {
+    flex-direction: column;
+  }
+}
 .section5 {
   margin-top: 5em;
   width: 100%;

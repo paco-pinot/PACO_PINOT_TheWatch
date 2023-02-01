@@ -58,3 +58,19 @@ btnLeftCaroussel.addEventListener("click",function () {
         containerCarroussel.classList.remove("car4")
     }
 })
+
+// ________________________SECTION3_________________________
+
+let btnPlus = document.querySelector(".plusS3")
+let btnMoins = document.querySelector(".moinsS3")
+let chiffreS3 = document.querySelector(".ChiffreS3")
+console.log(chiffreS3.innerHTML);
+btnPlus.addEventListener("click",function () {
+    chiffreS3.innerHTML++
+})
+btnMoins.addEventListener("click",function () {
+    if ( chiffreS3.innerHTML>=1) {
+        chiffreS3.innerHTML--
+    }
+})
+

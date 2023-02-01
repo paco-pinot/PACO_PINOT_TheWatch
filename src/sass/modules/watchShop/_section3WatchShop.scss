@@ -1,0 +1,68 @@
+.section3Watch{
+    margin-left:25% ;
+    margin-right:25% ;
+    .containerS3Watch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size:2.3em;
+            line-height: 1.7em;
+            text-align: center;
+        }
+        p{
+            color: grey;
+            font-size: 1.3em;
+            line-height: 2em;
+            text-align: center;
+        }
+        .quantitySection3WatchContainer{
+            margin-top: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: xx-large;
+            .caseS3{
+                border: 1px grey solid;
+                color :grey;
+                padding: 0.8em;
+            }
+            .caseS3c{
+                border: 1px grey solid;
+                color :white;
+                background-color: grey;
+                padding: 0.8em;
+            }
+            .quantityS3,.prixS3{
+                color: grey;
+                padding: 1em;
+                font-size: x-large;
+            }
+        
+        }
+        .s{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3em;
+            .addCartS3{
+                padding:  1.5em;
+                padding-left:2em ;
+                padding-right: 2em;
+                font-size: large;
+                border: rgba(0, 204, 255, 0.667) solid 1px;
+                border-radius: 5px;
+                cursor: pointer;
+                color: rgba(0, 204, 255, 0.667);
+            }
+            .addCartS3:hover{
+                background-color: rgba(0, 204, 255, 0.667) ;
+                color:white ;
+            }
+        }
+    }
+
+}

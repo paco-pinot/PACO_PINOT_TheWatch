@@ -11110,6 +11110,14 @@ footer .reseauxFooter {
   font-weight: bolder;
 }
 
+@media (max-width: 800px) {
+  .section1Watch {
+    height: 100%;
+    font-size: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
 .section2Caroussel {
   margin: 10%;
 }
@@ -11160,7 +11168,8 @@ footer .reseauxFooter {
 @media (max-width: 800px) {
   .section2Caroussel {
     margin: 0 !important;
-    margin-top: 7em !important;
+    margin-top: 4em !important;
+    margin-bottom: 4em !important;
   }
   .section2Caroussel .containerCaroussel {
     margin: 0 !important;
@@ -11170,4 +11179,131 @@ footer .reseauxFooter {
     width: 100%;
     height: 100%;
   }
+}
+.section3Watch {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.section3Watch .containerS3Watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3Watch .containerS3Watch h2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 2.3em;
+  line-height: 1.7em;
+  text-align: center;
+}
+.section3Watch .containerS3Watch p {
+  color: grey;
+  font-size: 1.3em;
+  line-height: 2em;
+  text-align: center;
+}
+.section3Watch .containerS3Watch .quantitySection3WatchContainer {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+.section3Watch .containerS3Watch .quantitySection3WatchContainer .caseS3 {
+  border: 1px grey solid;
+  color: grey;
+  padding: 0.8em;
+}
+.section3Watch .containerS3Watch .quantitySection3WatchContainer .caseS3c {
+  border: 1px grey solid;
+  color: white;
+  background-color: grey;
+  padding: 0.8em;
+}
+.section3Watch .containerS3Watch .quantitySection3WatchContainer .quantityS3, .section3Watch .containerS3Watch .quantitySection3WatchContainer .prixS3 {
+  color: grey;
+  padding: 1em;
+  font-size: x-large;
+}
+.section3Watch .containerS3Watch .s {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+.section3Watch .containerS3Watch .s .addCartS3 {
+  padding: 1.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: large;
+  border: rgba(0, 204, 255, 0.667) solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgba(0, 204, 255, 0.667);
+}
+.section3Watch .containerS3Watch .s .addCartS3:hover {
+  background-color: rgba(0, 204, 255, 0.667);
+  color: white;
+}
+
+.section4Watch {
+  margin-top: 6em;
+}
+.section4Watch .containerSection4Watch {
+  background-color: #191D34;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section4Watch .containerSection4Watch .d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.section4Watch .containerSection4Watch h3 {
+  padding-top: 5em;
+  font-size: xx-large;
+  margin: 0;
+}
+.section4Watch .containerSection4Watch p {
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+}
+.section4Watch .containerSection4Watch .containerEmailS4 {
+  margin-bottom: 5em;
+  border: rgba(255, 255, 255, 0.589) solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4em;
+  border-radius: 40px;
+}
+.section4Watch .containerSection4Watch .containerEmailS4 .subscribeS4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 20%;
+  font-weight: bold;
+  background-color: rgba(0, 204, 255, 0.667);
+}
+.section4Watch .containerSection4Watch .containerEmailS4 .subscribeS4:hover {
+  background-color: white;
+  color: red;
+}
+.section4Watch .containerSection4Watch .containerEmailS4 .emailS4 {
+  padding-left: 30px;
+  color: grey;
 }

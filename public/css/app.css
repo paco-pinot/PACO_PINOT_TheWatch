@@ -10870,6 +10870,25 @@ readers do not read off random characters that represent icons */
   justify-content: center;
 }
 
+.section7 .containerSection7 {
+  background-color: #EA0000;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.section7 .containerSection7 .blocSection7 {
+  padding: 3em;
+}
+.section7 .containerSection7 .blocSection7 i {
+  font-size: xx-large;
+}
+.section7 .containerSection7 .blocSection7 p {
+  color: rgba(255, 255, 255, 0.774);
+}
+
 body {
   margin: 0;
 }

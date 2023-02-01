@@ -1,0 +1,21 @@
+.section7{
+    .containerSection7{
+        background-color: #EA0000;
+        color: white;
+        // height: 300px;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        .blocSection7{
+            padding: 3em;
+            i{
+                font-size: xx-large;
+            }
+            p{
+                color: rgba(255, 255, 255, 0.774);
+            }
+        }
+    }
+}

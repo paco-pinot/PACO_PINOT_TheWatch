@@ -3,9 +3,7 @@
         font-family: 'Josefin Sans', sans-serif;
     }
 nav{
-    
     font-size: x-large;
-
     .containerNavbar{
         background-color: blue;
         display: flex;
@@ -33,43 +31,55 @@ nav{
         display: flex;
         gap: 2em;
         align-items: center;
-    
     }
     .finNavbar{
         display: flex;
         gap: 1.7em;
-        
     }
 
 
 }
 .containerDropdownLatest{
-    
     display: none;
-    position: relative;
+    position: absolute;
+    margin-top: 50px;
+    padding: 20px;
     z-index: 600;
     align-items: center;
     justify-content: center;
-}
-.dropdownLatest{
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    width: 10em;
-    gap: 15px;
-    height: 6em;
-    margin-left: 220px;
-    border-top: red 5px solid;
-    flex-direction: column;
+    background-color: white;
+    line-height: 2em;
+    border-top: red 5px solid; 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    div{
-        margin-left: 20px;
-    }
-}
+}  
 .latestNavbar:hover .containerDropdownLatest{
-    display: flex;
+    display: block;
 }
-.latestNavbar{
-    position: relative;
+.cursor{
+    cursor: pointer;
 }
+
+
+
+// .dropdownLatest{
+//     background-color: yellow;
+//     display: flex;
+//     justify-content: center;
+//     width: 10em;
+//     gap: 15px;
+//     height: 6em;
+//     margin-left: 220px;
+//     border-top: red 5px solid;
+//     flex-direction: column;
+
+//     div{
+//         margin-left: 20px;
+//     }
+// }
+// .latestNavbar:hover .containerDropdownLatest{
+//     display: flex;
+// }
+// .latestNavbar{
+//     position: relative;
+// }

@@ -10794,8 +10794,8 @@ readers do not read off random characters that represent icons */
 }
 
 .containerModalSection5 {
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
@@ -10982,35 +10982,25 @@ nav .finNavbar {
 
 .containerDropdownLatest {
   display: none;
-  position: relative;
+  position: absolute;
+  margin-top: 50px;
+  padding: 20px;
   z-index: 600;
   align-items: center;
   justify-content: center;
-}
-
-.dropdownLatest {
-  background-color: yellow;
-  display: flex;
-  justify-content: center;
-  width: 10em;
-  gap: 15px;
-  height: 6em;
-  margin-left: 220px;
+  background-color: white;
+  line-height: 2em;
   border-top: red 5px solid;
-  flex-direction: column;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.dropdownLatest div {
-  margin-left: 20px;
-}
 
 .latestNavbar:hover .containerDropdownLatest {
-  display: flex;
+  display: block;
 }
 
-.latestNavbar {
-  position: relative;
+.cursor {
+  cursor: pointer;
 }
 
 footer {

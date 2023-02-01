@@ -11014,6 +11014,14 @@ nav .finNavbar {
   color: red;
 }
 
+.cursor:hover div {
+  color: black;
+}
+
+.cursor:hover div:hover {
+  color: red;
+}
+
 footer {
   margin-top: 10em;
   margin-left: 10%;

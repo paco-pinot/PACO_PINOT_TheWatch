@@ -69,27 +69,9 @@ nav{
 .cursor:hover{
     color: red;
 }
-
-
-
-// .dropdownLatest{
-//     background-color: yellow;
-//     display: flex;
-//     justify-content: center;
-//     width: 10em;
-//     gap: 15px;
-//     height: 6em;
-//     margin-left: 220px;
-//     border-top: red 5px solid;
-//     flex-direction: column;
-
-//     div{
-//         margin-left: 20px;
-//     }
-// }
-// .latestNavbar:hover .containerDropdownLatest{
-//     display: flex;
-// }
-// .latestNavbar{
-//     position: relative;
-// }
+.cursor:hover div{
+color: black;
+}
+.cursor:hover div:hover{
+    color: red;
+}

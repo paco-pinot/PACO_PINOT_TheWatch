@@ -29,12 +29,20 @@
             border: none;
             color: white;
             background-color: rgba(128, 128, 128, 0.457);
+            transition: 0.6s;
+            font-size: larger;
         }
         .btnLeftCaroussel{
             left: 0;
         }
+        .btnLeftCaroussel:hover{
+            background-color: grey;
+        }
         .btnRightCaroussel{
             right: 0;
+        }
+        .btnRightCaroussel:hover{
+            background-color: grey;
         }
     }
 }

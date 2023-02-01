@@ -11141,10 +11141,18 @@ footer .reseauxFooter {
   border: none;
   color: white;
   background-color: rgba(128, 128, 128, 0.457);
+  transition: 0.6s;
+  font-size: larger;
 }
 .section2Caroussel .containerCaroussel .btnLeftCaroussel {
   left: 0;
 }
+.section2Caroussel .containerCaroussel .btnLeftCaroussel:hover {
+  background-color: grey;
+}
 .section2Caroussel .containerCaroussel .btnRightCaroussel {
   right: 0;
+}
+.section2Caroussel .containerCaroussel .btnRightCaroussel:hover {
+  background-color: grey;
 }

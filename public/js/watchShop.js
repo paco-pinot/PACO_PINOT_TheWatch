@@ -8,9 +8,9 @@ let imgCaroussel4 = document.querySelector(".caroussel4")
 let containerCarroussel = document.querySelector(".containerCaroussel")
 let allImgs = document.querySelectorAll(".imgCaroussel")
 console.log(allImgs);
-compteur = 0
+
+// ____________________BOUTON DROIT_____________________________
 btnRightCaroussel.addEventListener("click",function () {
-    
     if (containerCarroussel.classList.contains("car1")) {
         imgCaroussel1.style.display = "none"
         imgCaroussel2.style.display = "block"
@@ -33,6 +33,8 @@ btnRightCaroussel.addEventListener("click",function () {
         containerCarroussel.classList.remove("car4")
     }
 })
+
+// ______________________BOUTON GAUCHE___________________________
 btnLeftCaroussel.addEventListener("click",function () {
     if (containerCarroussel.classList.contains("car1")) {
         imgCaroussel1.style.display = "none"
@@ -55,5 +57,4 @@ btnLeftCaroussel.addEventListener("click",function () {
         containerCarroussel.classList.add("car3")
         containerCarroussel.classList.remove("car4")
     }
-
 })

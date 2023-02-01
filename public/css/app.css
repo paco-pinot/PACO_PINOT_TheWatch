@@ -11000,3 +11000,35 @@ nav .finNavbar {
 .latestNavbar {
   position: relative;
 }
+
+footer {
+  margin-top: 10em;
+}
+footer .containerFooter {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  color: grey;
+}
+footer .containerFooter .footerBox {
+  padding: 2em;
+  width: 25%;
+}
+footer .containerFooter .footer1 {
+  font-size: larger;
+  line-height: 2em;
+}
+footer .containerFooter .footer1 h3 {
+  visibility: hidden;
+}
+footer .containerFooter h3 {
+  color: black;
+  font-size: x-large;
+}
+footer .containerFooter ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2.5em;
+  font-size: large;
+}

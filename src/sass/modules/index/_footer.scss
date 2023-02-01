@@ -1,0 +1,37 @@
+footer{
+
+    margin-top: 10em;
+    .containerFooter{
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        color: grey;
+        
+       
+        .footerBox{
+            padding: 2em;
+            width: 25%;
+        }
+        .footer1{
+            font-size: larger;
+            line-height: 2em; 
+            h3{
+                visibility: hidden;
+            }
+        }
+        .footer4{
+            //  margin-left: 10%;
+        }
+        h3{
+            color: black;
+            font-size: x-large;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            line-height: 2.5em;
+            font-size: large;
+        }
+    }
+}

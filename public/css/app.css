@@ -11078,3 +11078,15 @@ footer .reseauxFooter {
     align-items: center !important;
   }
 }
+.section1Watch {
+  background-image: url("../../../../public/img/topography.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(128, 128, 128, 0.205);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  font-weight: bolder;
+}

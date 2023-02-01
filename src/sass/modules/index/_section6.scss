@@ -59,3 +59,31 @@
         }
     }
 }
+
+
+@media (max-width: 800px){
+    .basSection6{
+        flex-direction: column-reverse;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    .hautSection6{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    .gaucheHautSection6{
+        margin-right: 0!important;
+        width: 100%;
+    }
+    .basDroiteSection6{
+        margin-left: 0!important; 
+        width: 100%;
+    }
+    .containerSection6{
+        gap: 2em;
+    }
+}

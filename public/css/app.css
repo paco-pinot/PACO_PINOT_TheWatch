@@ -11005,6 +11005,7 @@ footer {
   margin-top: 10em;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 5em;
 }
 footer .containerFooter {
   display: flex;
@@ -11031,6 +11032,14 @@ footer .containerFooter ul {
   padding: 0;
   line-height: 2.5em;
   font-size: large;
+}
+footer .containerFooter ul li {
+  cursor: pointer;
+  transition: 0.5s;
+}
+footer .containerFooter ul li:hover {
+  color: red;
+  padding-left: 2px;
 }
 footer .reseauxFooter {
   display: flex;

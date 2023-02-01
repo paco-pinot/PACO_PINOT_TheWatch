@@ -10831,32 +10831,35 @@ readers do not read off random characters that represent icons */
   font-size: large;
   color: grey;
   margin-bottom: 2em;
+  line-height: 1.8em;
 }
 .section6 .containerSection6 .basSection6 {
   display: flex;
   gap: 2em;
   width: 100%;
 }
-.section6 .containerSection6 .hautSection6 {
-  display: flex;
-  gap: 2em;
-  width: 100%;
-}
-.section6 .containerSection6 .hautSection6 .basDroiteSection6 {
+.section6 .containerSection6 .basSection6 .basDroiteSection6 {
   width: 50%;
   display: flex;
+  margin-left: 20%;
   justify-content: center;
   flex-direction: column;
 }
-.section6 .containerSection6 .hautSection6 .basGaucheSection6 {
+.section6 .containerSection6 .basSection6 .basGaucheSection6 {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.section6 .containerSection6 .hautSection6 {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+}
 .section6 .containerSection6 .hautSection6 .gaucheHautSection6 {
   width: 50%;
   display: flex;
+  margin-right: 20%;
   justify-content: center;
   flex-direction: column;
 }

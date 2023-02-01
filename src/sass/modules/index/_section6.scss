@@ -16,20 +16,16 @@
             font-size: large;
             color: grey;
             margin-bottom: 2em;
+            line-height: 1.8em;
         }
         .basSection6{
-            display: flex;
-            gap: 2em;
-            width: 100%;
-
-        }
-        .hautSection6{
             display: flex;
             gap: 2em;
             width: 100%;
             .basDroiteSection6{
                 width: 50%;
                 display: flex;
+                margin-left: 20%;
                 
                 justify-content: center;
                 flex-direction: column;
@@ -40,10 +36,17 @@
                 align-items: center;
                 justify-content: center;
             }
+        }
+        .hautSection6{
+            display: flex;
+            gap: 2em;
+            width: 100%;
+            
+           
             .gaucheHautSection6{
                 width: 50%;
                 display: flex;
-                
+                margin-right: 20%;
                 justify-content: center;
                 flex-direction: column;
             }

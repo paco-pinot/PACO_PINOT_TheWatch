@@ -10948,13 +10948,10 @@ nav {
   font-size: x-large;
 }
 nav .containerNavbar {
-  background-color: blue;
   display: flex;
   gap: 10em;
   justify-content: center;
   margin-right: 1em;
-  padding-top: 2em;
-  padding-bottom: 2em;
   align-items: center;
 }
 nav .containerNavbar span {
@@ -10980,7 +10977,7 @@ nav .finNavbar {
   gap: 1.7em;
 }
 
-.containerDropdownLatest {
+.containerDropdownLatest, .dropdownBlog, .dropdownPages {
   display: none;
   position: absolute;
   margin-top: 50px;
@@ -10999,8 +10996,22 @@ nav .finNavbar {
   display: block;
 }
 
+.blogNavbar:hover .dropdownBlog {
+  display: block;
+}
+
+.pagesNavbar:hover .dropdownPages {
+  display: block;
+}
+
 .cursor {
   cursor: pointer;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.cursor:hover {
+  color: red;
 }
 
 footer {
@@ -11089,4 +11100,8 @@ footer .reseauxFooter {
   align-items: center;
   font-size: 5em;
   font-weight: bolder;
+}
+
+.section2Caroussel {
+  margin: 10%;
 }

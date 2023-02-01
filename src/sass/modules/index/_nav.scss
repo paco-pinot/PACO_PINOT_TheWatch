@@ -5,13 +5,11 @@
 nav{
     font-size: x-large;
     .containerNavbar{
-        background-color: blue;
+
         display: flex;
         gap: 10em;
         justify-content: center;
         margin-right:1em ;
-        padding-top: 2em;
-        padding-bottom: 2em;
         align-items: center;
         span{
             margin: auto;
@@ -39,7 +37,7 @@ nav{
 
 
 }
-.containerDropdownLatest{
+.containerDropdownLatest,.dropdownBlog,.dropdownPages{
     display: none;
     position: absolute;
     margin-top: 50px;
@@ -52,12 +50,24 @@ nav{
     border-top: red 5px solid; 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}  
+} 
+
 .latestNavbar:hover .containerDropdownLatest{
+    display: block;
+}
+.blogNavbar:hover .dropdownBlog{
+    display: block;
+}
+.pagesNavbar:hover .dropdownPages{
     display: block;
 }
 .cursor{
     cursor: pointer;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.cursor:hover{
+    color: red;
 }
 
 

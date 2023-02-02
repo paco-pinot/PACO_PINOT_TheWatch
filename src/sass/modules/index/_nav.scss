@@ -220,4 +220,26 @@ color: black;
 }
 
 // ______________________________RESPONSIVE__________________________________
-
+@media (max-width: 800px){
+    nav{
+        font-size: large;
+        margin-bottom: 3em;
+        .containerNavbar{
+            flex-direction: column;
+            gap: 10px;
+            span{
+                display: none;
+            }
+        }
+        .milieuNavbar{
+            flex-direction: column;
+            gap: 10px;
+        }
+        .finNavbar{
+            gap: 10px;
+        }
+        .cursor{
+            padding: 1em;
+        }
+    }
+}

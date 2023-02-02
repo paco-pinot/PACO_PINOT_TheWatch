@@ -10487,7 +10487,7 @@ readers do not read off random characters that represent icons */
     margin-right: 0;
   }
   .containerSection1 h2 {
-    font-size: larger;
+    font-size: xx-large !important;
   }
   .containerSection1 button {
     margin-bottom: 2em;
@@ -11164,6 +11164,29 @@ nav .finNavbar {
   color: white;
 }
 
+@media (max-width: 800px) {
+  nav {
+    font-size: large;
+    margin-bottom: 3em;
+  }
+  nav .containerNavbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav .containerNavbar span {
+    display: none;
+  }
+  nav .milieuNavbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav .finNavbar {
+    gap: 10px;
+  }
+  nav .cursor {
+    padding: 1em;
+  }
+}
 footer {
   margin-top: 10em;
   margin-left: 10%;

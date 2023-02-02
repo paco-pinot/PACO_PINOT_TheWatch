@@ -54,6 +54,8 @@ btnDarkMode.addEventListener("click",function () {
         body.style.backgroundColor = "black"
         body.style.color = "white"
         section1.style.backgroundColor = "black"
+        connexion.style.color = "black"
+        inscription.style.color = "black"
     }else if (compteur==2){
         body.style.backgroundColor = "initial"
         body.style.color = "initial"

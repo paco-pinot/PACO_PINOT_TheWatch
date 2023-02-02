@@ -144,5 +144,18 @@
 @media (max-width: 800px){
     .hautMontresSection4,.basMontresSection4{
         flex-direction: column;
+        width: 100%;
+    }
+    .montreSection4{
+        width: 100%;
+        .container{
+            width: 100%;
+        }
+    }
+    .section4{
+        img{
+            width: 100%;
+        }
+        
     }
 }

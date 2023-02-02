@@ -10481,18 +10481,22 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 800px) {
-  .containerSection1 {
+  .section1 {
+    width: 100%;
+  }
+  .section1 .containerSection1 {
+    width: 100%;
     flex-direction: column;
     margin-left: 0;
     margin-right: 0;
   }
-  .containerSection1 h2 {
+  .section1 .containerSection1 h2 {
     font-size: xx-large !important;
   }
-  .containerSection1 button {
+  .section1 .containerSection1 button {
     margin-bottom: 2em;
   }
-  .containerSection1 .rolexSection1 {
+  .section1 .containerSection1 .rolexSection1 {
     display: none;
   }
 }
@@ -10603,16 +10607,19 @@ readers do not read off random characters that represent icons */
 @media (max-width: 800px) {
   .section3 {
     margin-top: 6em;
+    width: 100%;
+    display: none;
   }
   .section3 .containerS3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 4em;
+    width: 100%;
   }
   .section3 .containerS3 img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
   .s3Droite {
     gap: 4em;
@@ -10751,6 +10758,16 @@ readers do not read off random characters that represent icons */
 @media (max-width: 800px) {
   .hautMontresSection4, .basMontresSection4 {
     flex-direction: column;
+    width: 100%;
+  }
+  .montreSection4 {
+    width: 100%;
+  }
+  .montreSection4 .container {
+    width: 100%;
+  }
+  .section4 img {
+    width: 100%;
   }
 }
 .section5 {
@@ -10816,6 +10833,9 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 800px) {
+  .section5 {
+    height: 100%;
+  }
   .containerSection5 {
     background-position: center;
   }
@@ -10906,6 +10926,10 @@ readers do not read off random characters that represent icons */
   }
   .containerSection6 {
     gap: 2em;
+    text-align: center;
+  }
+  .containerSection6 img {
+    width: 100%;
   }
 }
 .section7 {

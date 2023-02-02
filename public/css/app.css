@@ -10961,7 +10961,7 @@ nav .containerNavbar span {
   padding: 7px;
   font-weight: bold;
   bottom: 2.5em;
-  left: 61em;
+  left: 59em;
   position: relative;
   color: white;
   font-size: small;
@@ -10975,6 +10975,7 @@ nav .milieuNavbar {
 nav .finNavbar {
   display: flex;
   gap: 1.7em;
+  align-items: center;
 }
 
 .containerDropdownLatest, .dropdownBlog, .dropdownPages {
@@ -11308,4 +11309,10 @@ footer .reseauxFooter {
 .section4Watch .containerSection4Watch .containerEmailS4 .emailS4 {
   padding-left: 30px;
   color: grey;
+}
+
+@media (max-width: 800px) {
+  .section4Watch {
+    text-align: center;
+  }
 }

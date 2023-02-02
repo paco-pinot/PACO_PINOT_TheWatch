@@ -18,7 +18,7 @@ nav{
             padding: 7px;
             font-weight: bold;
             bottom: 2.5em;
-            left: 61em;
+            left: 59em;
             position: relative;
             color: white;
             font-size: small;
@@ -33,6 +33,7 @@ nav{
     .finNavbar{
         display: flex;
         gap: 1.7em;
+        align-items: center;
     }
 
 

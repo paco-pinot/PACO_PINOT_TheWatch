@@ -42,6 +42,18 @@ croixSeconnecter.addEventListener("click",function () {
 })
 
 
+// _______________________BTN DARKMODE_______________________
+
+let btnDarkMode = document.querySelector(".fa-circle-half-stroke")
+let body = document.querySelector("body")
+let bgSection1 = document.querySelector(".")
+btnDarkMode.addEventListener("click",function () {
+    body.style.backgroundColor = "black"
+    body.style.color = "white"
+})
+
+
+
 
 
 

@@ -10823,7 +10823,7 @@ readers do not read off random characters that represent icons */
 
 .containerModalSection5 {
   position: fixed;
-  z-index: 1;
+  z-index: 200;
   left: 0;
   top: 0;
   width: 100%;
@@ -10987,7 +10987,7 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
-  z-index: 100000000;
+  z-index: 100;
 }
 nav .containerNavbar {
   width: 100%;
@@ -11077,7 +11077,7 @@ nav .finNavbar {
 
 .modalInscription {
   position: fixed;
-  z-index: 1;
+  z-index: 200;
   left: 0;
   top: 0;
   width: 100%;
@@ -11133,7 +11133,7 @@ nav .finNavbar {
 
 .SinscrireSection {
   position: fixed;
-  z-index: 1;
+  z-index: 200;
   left: 0;
   top: 0;
   width: 100%;
@@ -11164,7 +11164,7 @@ nav .finNavbar {
 
 .seConnecterSection {
   position: fixed;
-  z-index: 1;
+  z-index: 200;
   left: 0;
   top: 0;
   width: 100%;

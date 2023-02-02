@@ -2,6 +2,9 @@
     margin-top: 5em;
     width: 100%;
     height: 800px;
+    .containerSection5:hover{
+        filter: brightness(0.7);
+    }
     .containerSection5{
         background-image: url("../../../../public/img/gallery01.png");
         background-repeat: no-repeat;
@@ -21,6 +24,9 @@
             font-size: 5em;
             position: relative;
             cursor: pointer;
+        }
+        .containerPlay:hover{
+            color: red;
         }
         .bottomSection5{
             margin-top: 6%;

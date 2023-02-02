@@ -65,18 +65,6 @@ btnDarkMode.addEventListener("click",function () {
         compteur=0
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
 // _________________SECTION 2 (ARRIVALS) _______________________
 
 let section2 = document.querySelector(".section2")

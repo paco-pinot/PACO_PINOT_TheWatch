@@ -74,3 +74,67 @@ btnMoins.addEventListener("click",function () {
     }
 })
 
+// ________________________________MODAL INSCRIPTION_________________________________
+
+let btnUser =document.querySelector(".fa-user")
+let modalInscription = document.querySelector(".modalInscription")
+let containerModal = document.querySelector(".containerModal")
+let croixModal =document.querySelector(".croix")
+btnUser.addEventListener("click",function () {
+    modalInscription.style.display ="flex"
+})
+croixModal.addEventListener("click",function(){
+    modalInscription.style.display ="none"
+})
+// _______________BTN INSCRIPTION____________________
+let sinscrireBtn = document.querySelector(".Sinscrire")
+let inscription = document.querySelector(".SinscrireSection")
+sinscrireBtn.addEventListener("click",function () {
+    modalInscription.style.display ="none"
+    inscription.style.display ="flex"
+})
+
+let croixInscription = document.querySelector(".croixSinscrire")
+
+croixInscription.addEventListener("click",function () {
+    inscription.style.display ="none"
+})
+
+// _______________________BTN SE CONNECTER_______________________________
+
+let seConnecterBtn = document.querySelector(".seConnecter")
+let connexion = document.querySelector(".seConnecterSection")
+
+seConnecterBtn.addEventListener("click",function () {
+    modalInscription.style.display ="none"
+    connexion.style.display ="flex"
+})
+
+let croixSeconnecter = document.querySelector(".croixSeConnecter")
+
+croixSeconnecter.addEventListener("click",function () {
+    connexion.style.display ="none"
+})
+
+
+// _______________________BTN DARKMODE_______________________
+
+let btnDarkMode = document.querySelector(".fa-circle-half-stroke")
+let body = document.querySelector("body")
+let section1 = document.querySelector(".section1")
+let compteuri = 0
+btnDarkMode.addEventListener("click",function () {
+    compteuri++
+    if (compteuri==1) {
+        body.style.backgroundColor = "black"
+        body.style.color = "white"
+        connexion.style.color = "black"
+        inscription.style.color = "black"
+        btnDarkMode.style.color = "red"
+    }else if (compteuri==2){
+        btnDarkMode.style.color = "black"
+        body.style.backgroundColor = "initial"
+        body.style.color = "initial"
+        compteuri=0
+    }
+})

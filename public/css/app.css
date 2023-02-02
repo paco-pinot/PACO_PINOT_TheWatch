@@ -10908,11 +10908,14 @@ readers do not read off random characters that represent icons */
     gap: 2em;
   }
 }
+.section7 {
+  margin-top: 7em;
+}
 .section7 .containerSection7 {
   background-color: #EA0000;
   color: white;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   align-items: center;
   gap: 2em;

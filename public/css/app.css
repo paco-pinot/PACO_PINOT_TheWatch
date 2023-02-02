@@ -11085,6 +11085,8 @@ footer .reseauxFooter {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
   footer .containerFooter .footerBox ul {
     text-align: center;

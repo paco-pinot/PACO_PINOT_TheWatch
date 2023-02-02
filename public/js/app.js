@@ -46,10 +46,20 @@ croixSeconnecter.addEventListener("click",function () {
 
 let btnDarkMode = document.querySelector(".fa-circle-half-stroke")
 let body = document.querySelector("body")
-let bgSection1 = document.querySelector(".")
+let section1 = document.querySelector(".section1")
+let compteur = 0
 btnDarkMode.addEventListener("click",function () {
-    body.style.backgroundColor = "black"
-    body.style.color = "white"
+    compteur++
+    if (compteur==1) {
+        body.style.backgroundColor = "black"
+        body.style.color = "white"
+        section1.style.backgroundColor = "black"
+    }else if (compteur==2){
+        body.style.backgroundColor = "initial"
+        body.style.color = "initial"
+        section1.style.backgroundColor = "#F0F0F2"
+        compteur=0
+    }
 })
 
 

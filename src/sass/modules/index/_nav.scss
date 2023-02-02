@@ -28,6 +28,15 @@ nav{
         display: flex;
         gap: 2em;
         align-items: center;
+        .homeNavbar{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: red;
+            }
+        }
     }
     .finNavbar{
         display: flex;
@@ -218,7 +227,9 @@ color: black;
     background-color: red;
     color: white;
 }
-
+// header{
+//     display: none;
+// }
 // ______________________________RESPONSIVE__________________________________
 @media (max-width: 800px){
     nav{
@@ -227,6 +238,7 @@ color: black;
         .containerNavbar{
             flex-direction: column;
             gap: 10px;
+            padding-right: 0!important;
             span{
                 display: none;
             }
@@ -241,5 +253,8 @@ color: black;
         .cursor{
             padding: 1em;
         }
+    }
+    .containerDropdownLatest,.dropdownBlog,.dropdownPages{
+        position: relative;
     }
 }

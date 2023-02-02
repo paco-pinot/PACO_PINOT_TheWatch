@@ -10770,6 +10770,11 @@ readers do not read off random characters that represent icons */
     width: 100%;
   }
 }
+.lien2emePage {
+  text-decoration: none;
+  color: white;
+}
+
 .section5 {
   margin-top: 5em;
   width: 100%;
@@ -10999,6 +11004,13 @@ nav .milieuNavbar {
   gap: 2em;
   align-items: center;
 }
+nav .milieuNavbar .homeNavbar a {
+  text-decoration: none;
+  color: black;
+}
+nav .milieuNavbar .homeNavbar a:hover {
+  color: red;
+}
 nav .finNavbar {
   display: flex;
   gap: 1.7em;
@@ -11196,6 +11208,7 @@ nav .finNavbar {
   nav .containerNavbar {
     flex-direction: column;
     gap: 10px;
+    padding-right: 0 !important;
   }
   nav .containerNavbar span {
     display: none;
@@ -11209,6 +11222,9 @@ nav .finNavbar {
   }
   nav .cursor {
     padding: 1em;
+  }
+  .containerDropdownLatest, .dropdownBlog, .dropdownPages {
+    position: relative;
   }
 }
 footer {

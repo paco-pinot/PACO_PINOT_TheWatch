@@ -5,11 +5,10 @@
 nav{
     font-size: x-large;
     .containerNavbar{
-
         display: flex;
         gap: 10em;
         justify-content: center;
-        margin-right:1em ;
+        padding-right:1em ;
         align-items: center;
         span{
             margin: auto;
@@ -75,4 +74,147 @@ color: black;
 }
 .cursor:hover div:hover{
     color: red;
+}
+
+
+// __________________________MODAL_______________________________
+
+.modalInscription{
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.774);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    .croix{
+        display: flex;
+        justify-content: end;
+        font-size: 1.5em;
+        color: black;
+        padding-top: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    .ah{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3em;
+        padding-left: 4em;
+        padding-right: 4em;
+        padding-bottom: 6em;
+    }
+    .containerModal{
+        background-color: white;
+        border-radius: 10px;
+        height: 300px;
+        .seConnecter{
+            background-color: red;
+            color: white;
+            padding: 1em;
+            width: 100px;
+            border-radius: 10px;
+            margin-top:4em ;
+            text-align: center;
+        }
+        .Sinscrire{
+            text-align: center;
+            background-color: red;
+            color: white;
+            padding: 1em;
+            width: 100px;
+            border-radius: 10px;
+            margin-bottom:4em ;
+        }
+    }
+}
+
+// _____________________________MODAL INSCRIPTION_____________________________
+
+.SinscrireSection{
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.774);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    .containerSinscrire{
+        background-color: white;
+        padding: 2em;
+        .croixSinscrire{
+            display: flex;
+            justify-content: end;
+            padding: 10px;
+        }
+        .formInscription{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1em;
+        }
+    }
+}
+
+// _______________________SE CONNECTER MODAL______________________
+
+.seConnecterSection{
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.774);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    .seConnecterContainer{
+        background-color: white;
+        padding: 2em;
+        padding-bottom: 3em;
+        padding-top: 0;
+        .croixSeConnecter{
+            display: flex;
+            justify-content: end;
+            padding: 10px;
+        }
+        .signSeconnecter{
+            text-align: center;
+        }
+    
+    }
+}
+.formSeConnecterContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btnInputz{
+    padding: 10px;
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    transition: 0.5s ;
+}
+.btnInputz:hover{
+    background-color: red;
+    color: white;
 }

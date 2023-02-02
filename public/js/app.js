@@ -1,4 +1,56 @@
 
+// ________________________________MODAL INSCRIPTION_________________________________
+
+let btnUser =document.querySelector(".fa-user")
+let modalInscription = document.querySelector(".modalInscription")
+let containerModal = document.querySelector(".containerModal")
+let croixModal =document.querySelector(".croix")
+btnUser.addEventListener("click",function () {
+    modalInscription.style.display ="flex"
+})
+croixModal.addEventListener("click",function(){
+    modalInscription.style.display ="none"
+})
+// _______________BTN INSCRIPTION____________________
+let sinscrireBtn = document.querySelector(".Sinscrire")
+let inscription = document.querySelector(".SinscrireSection")
+sinscrireBtn.addEventListener("click",function () {
+    modalInscription.style.display ="none"
+    inscription.style.display ="flex"
+})
+
+let croixInscription = document.querySelector(".croixSinscrire")
+
+croixInscription.addEventListener("click",function () {
+    inscription.style.display ="none"
+})
+
+// _______________________BTN SE CONNECTER_______________________________
+
+let seConnecterBtn = document.querySelector(".seConnecter")
+let connexion = document.querySelector(".seConnecterSection")
+
+seConnecterBtn.addEventListener("click",function () {
+    modalInscription.style.display ="none"
+    connexion.style.display ="flex"
+})
+
+let croixSeconnecter = document.querySelector(".croixSeConnecter")
+
+croixSeconnecter.addEventListener("click",function () {
+    connexion.style.display ="none"
+})
+
+
+
+
+
+
+
+
+
+
+
 // _________________SECTION 2 (ARRIVALS) _______________________
 
 let section2 = document.querySelector(".section2")

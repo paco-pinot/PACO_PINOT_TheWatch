@@ -89,6 +89,83 @@
                 </div>
             </div>
         </nav>
+
+        <!-- ____________________________MODAL INSCRIPTION______________________ -->
+
+        <section class="modalInscription">
+            <div class="containerModal">
+                <div class="croix">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="ah">
+                    <div class="seConnecter cursor">
+                        Se Connecter
+                    </div>
+                    <div class="Sinscrire cursor">
+                        S'inscire
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ________________________________S'INSCRIRE_____________________________ -->
+        <section class="SinscrireSection">
+            <div class="containerSinscrire">
+                <div class="croixSinscrire ">
+                    <i class="fa-solid fa-xmark cursor"></i>
+                </div>
+                <div class="formInscription">
+                    <form action="" method="get" class="formInscription">
+                        <div class="nameSinscrire formInscription">
+                            <label for="name">Enter your name: </label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="mailSinscrire formInscription">
+                            <label for="email">Enter your email: </label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="passwordSinscrire formInscription">
+                            <label for="pass">Password (8 characters minimum):</label>
+                            <input type="password" id="pass" name="password" minlength="8" required>
+                        </div>
+                        <div class="confirmPasswordSinscrire formInscription">
+                            <label for="pass">Confirm your Password :</label>
+                            <input type="password" id="pass" name="password" minlength="8" required>
+                        </div>
+                        <div class="signSeconnecter">
+                            <input type="submit" class="btnInputz" value="S'inscire">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ____________________________SE CONNECTER____________________ -->
+
+        <section class="seConnecterSection">
+            <div class="seConnecterContainer">
+                <div class="croixSeConnecter ">
+                    <i class="fa-solid fa-xmark cursor"></i>
+                </div>
+
+                    <form action="" method="get" class="formSeconnecter">
+                        <div class="formSeConnecterContainer">
+                        <div class="mailSeConnecter formSeconnecter">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="passwordSeConnecter formSeconnecter">
+                            <label for="pass">Password :</label>
+                            <input type="password" id="pass" name="password" minlength="8" required>
+                        </div>
+                        <div class="signSeconnecter">
+                            <input type="submit" class="btnInputz" value="Se connecter">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>

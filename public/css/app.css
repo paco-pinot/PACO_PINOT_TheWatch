@@ -10781,7 +10781,7 @@ readers do not read off random characters that represent icons */
   height: 800px;
 }
 .section5 .containerSection5:hover {
-  filter: brightness(0.7);
+  filter: brightness(0.8);
 }
 .section5 .containerSection5 {
   background-image: url("../../../../public/img/gallery01.png");
@@ -10984,8 +10984,15 @@ body {
 
 nav {
   font-size: x-large;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100000000;
 }
 nav .containerNavbar {
+  width: 100%;
+  background-color: white;
+  z-index: 5000;
   display: flex;
   gap: 10em;
   justify-content: center;
@@ -11204,6 +11211,22 @@ nav .finNavbar {
 .btnInputz:hover {
   background-color: red;
   color: white;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 50%;
 }
 
 @media (max-width: 800px) {

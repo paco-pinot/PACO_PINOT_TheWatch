@@ -4,10 +4,11 @@
     }
 nav{
     font-size: x-large;
-    position: fixed;
+    // position: fixed;
     top: 0px; 
     width: 100%;
     z-index: 100;
+    transition: 1s;
     .containerNavbar{
         width: 100%;
         background-color: white;
@@ -256,6 +257,8 @@ color: black;
 // ______________________________RESPONSIVE__________________________________
 @media (max-width: 800px){
     nav{
+        position: relative!important;
+        height: 10%;
         font-size: large;
         margin-bottom: 3em;
         .containerNavbar{
@@ -279,5 +282,8 @@ color: black;
     }
     .containerDropdownLatest,.dropdownBlog,.dropdownPages{
         position: relative;
+    }
+    #myBtn {
+        padding: 10px;
     }
 }

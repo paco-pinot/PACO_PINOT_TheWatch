@@ -55,12 +55,13 @@ btnDarkMode.addEventListener("click",function () {
         body.style.backgroundColor = "black"
         body.style.color = "white"
         navbar.style.backgroundColor="black"
-        // navbar.style.color ="black"
         section1.style.backgroundColor = "black"
         connexion.style.color = "black"
         inscription.style.color = "black"
         btnDarkMode.style.color = "red"
+        
     }else if (compteur==2){
+        navbar.style.backgroundColor="white"
         btnDarkMode.style.color = "black"
         body.style.backgroundColor = "initial"
         body.style.color = "initial"
@@ -146,15 +147,18 @@ containerModalSection5.addEventListener("click",function () {
 // __________________________BTN TOP___________________________
 
 let mybutton = document.getElementById("myBtn");
-
+let nava = document.querySelector("nav")
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
     mybutton.style.display = "block";
+    nava.style.position ="fixed"
+
   } else {
     mybutton.style.display = "none";
+    nava.style.position ="relative"
   }
 }
 

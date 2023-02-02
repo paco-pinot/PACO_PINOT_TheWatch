@@ -10490,6 +10490,10 @@ readers do not read off random characters that represent icons */
     margin-left: 0;
     margin-right: 0;
   }
+  .section1 .containerSection1 p {
+    font-family: "Roboto", sans-serif;
+    color: grey;
+  }
   .section1 .containerSection1 h2 {
     font-size: xx-large !important;
   }
@@ -10637,6 +10641,7 @@ readers do not read off random characters that represent icons */
   font-size: xx-large;
 }
 .section4 p {
+  font-family: "Roboto", sans-serif;
   color: grey;
   margin-left: 25%;
   margin-right: 25%;
@@ -10871,6 +10876,7 @@ readers do not read off random characters that represent icons */
   font-size: xx-large;
 }
 .section6 .containerSection6 p {
+  font-family: "Roboto", sans-serif;
   font-size: large;
   color: grey;
   margin-bottom: 2em;
@@ -10945,6 +10951,7 @@ readers do not read off random characters that represent icons */
 }
 .section7 {
   margin-top: 7em;
+  font-family: "Roboto", sans-serif;
 }
 .section7 .containerSection7 {
   background-color: #EA0000;
@@ -10984,10 +10991,10 @@ body {
 
 nav {
   font-size: x-large;
-  position: fixed;
   top: 0px;
   width: 100%;
   z-index: 100;
+  transition: 1s;
 }
 nav .containerNavbar {
   width: 100%;
@@ -11231,6 +11238,8 @@ nav .finNavbar {
 
 @media (max-width: 800px) {
   nav {
+    position: relative !important;
+    height: 10%;
     font-size: large;
     margin-bottom: 3em;
   }
@@ -11255,12 +11264,16 @@ nav .finNavbar {
   .containerDropdownLatest, .dropdownBlog, .dropdownPages {
     position: relative;
   }
+  #myBtn {
+    padding: 10px;
+  }
 }
 footer {
   margin-top: 10em;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5em;
+  font-family: "Roboto", sans-serif;
 }
 footer .containerFooter {
   display: flex;

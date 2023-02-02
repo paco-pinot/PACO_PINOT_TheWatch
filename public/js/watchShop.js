@@ -143,14 +143,16 @@ btnDarkMode.addEventListener("click",function () {
 // __________________________BTN TOP___________________________
 
 let mybutton = document.getElementById("myBtn");
-
+let nava = document.querySelector("nav")
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
     mybutton.style.display = "block";
+    nava.style.position ="fixed"
   } else {
     mybutton.style.display = "none";
+    nava.style.position ="relative"
   }
 }
 

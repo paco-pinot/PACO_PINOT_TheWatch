@@ -48,11 +48,14 @@ let btnDarkMode = document.querySelector(".fa-circle-half-stroke")
 let body = document.querySelector("body")
 let section1 = document.querySelector(".section1")
 let compteur = 0
+let navbar = document.querySelector(".containerNavbar")
 btnDarkMode.addEventListener("click",function () {
     compteur++
     if (compteur==1) {
         body.style.backgroundColor = "black"
         body.style.color = "white"
+        navbar.style.backgroundColor="black"
+        // navbar.style.color ="black"
         section1.style.backgroundColor = "black"
         connexion.style.color = "black"
         inscription.style.color = "black"

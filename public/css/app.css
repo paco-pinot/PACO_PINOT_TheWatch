@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap");
-@import "~@fortawesome/fontawesome-free/css/all.css";
-
 /*!
  * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -10387,7 +10385,7 @@ readers do not read off random characters that represent icons */
     flex-direction: column;
     margin-left: 2%;
     margin-right: 2%;
-    background-image: url("/public/img/watch.png");
+    background-image: url("../img/watch.png");
     background-position: calc(100% - 1.5em) center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -10696,7 +10694,7 @@ readers do not read off random characters that represent icons */
   filter: brightness(0.8);
 }
 .section5 .containerSection5 {
-  background-image: url("/public/img/gallery01.png");
+  background-image: url("../img/gallery01.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -10816,6 +10814,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   gap: 2em;
   width: 100%;
+  margin-bottom: 5em;
 }
 .section6 .containerSection6 .hautSection6 .gaucheHautSection6 {
   width: 50%;
@@ -11459,7 +11458,7 @@ footer .reseauxFooter {
   }
 }
 .section1Watch {
-  background-image: url("../../../../public/img/topography.svg");
+  background-image: url("../img/topography.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(128, 128, 128, 0.205);

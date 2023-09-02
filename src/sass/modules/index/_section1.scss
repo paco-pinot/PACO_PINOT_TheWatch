@@ -36,20 +36,25 @@
 
 }
 .outer {
-    // margin: 50px;
     color: white;
+    cursor: pointer;
+    
 }
 
 .button {
-    padding: 5px;
+    // padding: 5px;
     border-radius: 3px;
     width: 150px;
-    height: 30px;
-    display: block;
+    height: 40px;
+    // display: block;
     background: linear-gradient(to right, #4A4A4B 50%, red 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .button:hover {
@@ -58,14 +63,23 @@
 @media (max-width: 800px){
     .section1{
         width: 100%;
+        margin-top: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        // height: 50dvh;
         .containerSection1{
             width: 100%;
             flex-direction: column;
-            margin-left: 0;
-            margin-right: 0;
+            margin-left: 2%;
+            margin-right: 2%;
+            background-image: url('../../../../public/img/watch.png');
+            background-position: calc(100% - 1.5em) center;
+            background-repeat: no-repeat;
+            background-size: contain;
             p{
                 font-family: 'Roboto', sans-serif;
                 color: grey;
+                margin-right: 3em;
             }
             h2{
                 font-size: xx-large !important;

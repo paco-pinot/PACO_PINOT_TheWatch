@@ -122,24 +122,95 @@ croixSeconnecter.addEventListener("click",function () {
 let btnDarkMode = document.querySelector(".fa-circle-half-stroke")
 let body = document.querySelector("body")
 let section1 = document.querySelector(".section1")
+let navbar = document.querySelector(".containerNavbar")
+let link2 = document.querySelector(".home_a")
+let link =  document.querySelector('.navItem');
 let compteuri = 0
+let btnDarkModeBurger = document.querySelector(".darkMode2")
+let menuBurger = document.querySelector('.menu-items')
+let navbarBurger = document.querySelector('.navbarBurger')
+let containerBurger = document.querySelector('.containerBurger')
+let burgerLines = document.querySelectorAll('.line');
+let linkBurger = document.querySelectorAll('.linkBurger');
+
 btnDarkMode.addEventListener("click",function () {
     compteuri++
     if (compteuri==1) {
+        containerBurger.style.backgroundColor = "black";
+        navbarBurger.style.backgroundColor = "black";
+        menuBurger.style.backgroundColor="black"
+        navbar.style.backgroundColor="black"
         body.style.backgroundColor = "black"
         body.style.color = "white"
         connexion.style.color = "black"
         inscription.style.color = "black"
         btnDarkMode.style.color = "red"
+        link.style.color = "white"
+        link2.style.color='white' 
+
+
     }else if (compteuri==2){
+        containerBurger.style.backgroundColor = "white";
+        navbarBurger.style.backgroundColor="initial"
+        menuBurger.style.backgroundColor="initial"
+
+        navbar.style.backgroundColor="white"
         btnDarkMode.style.color = "black"
         body.style.backgroundColor = "initial"
         body.style.color = "initial"
+        link.style.color = "initial"
+        link2.style.color='initial' 
         compteuri=0
     }
 })
 
+// _______________DARKMODE BURGER_______________
 
+btnDarkModeBurger.addEventListener("click",function () {
+    compteuri++
+    if (compteuri === 1) {
+        containerBurger.style.backgroundColor = "black";
+        navbarBurger.style.backgroundColor = "black";
+        menuBurger.style.backgroundColor = "black";
+        navbar.style.backgroundColor="black"
+        body.style.backgroundColor = "black"
+        body.style.color = "white"
+        connexion.style.color = "black"
+        inscription.style.color = "black"
+        btnDarkMode.style.color = "red"
+        link.style.color = "white"
+        link2.style.color='white' 
+      
+        burgerLines.forEach(line => {
+          line.style.backgroundColor = "white";
+        });
+      
+        linkBurger.forEach(links => {
+          links.style.color = "white";
+        });
+      } else if (compteuri === 2) {
+        containerBurger.style.backgroundColor = "white";
+        navbarBurger.style.backgroundColor = "white";
+        menuBurger.style.backgroundColor = "white";
+        navbar.style.backgroundColor="white"
+        btnDarkMode.style.color = "black"
+        body.style.backgroundColor = "initial"
+        body.style.color = "initial"
+        link.style.color = "initial"
+        link2.style.color='initial' 
+      
+        burgerLines.forEach(line => {
+          line.style.backgroundColor = "black";
+        });
+      
+        linkBurger.forEach(links => {
+          links.style.color = "black";
+        });
+      
+        compteuri = 0;
+      }
+      
+})
 // __________________________BTN TOP___________________________
 
 let mybutton = document.getElementById("myBtn");
@@ -149,14 +220,23 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
     mybutton.style.display = "block";
+    mybutton.style.opacity = "1";
     nava.style.position ="fixed"
+
   } else {
     mybutton.style.display = "none";
+    mybutton.style.opacity = "0";
     nava.style.position ="relative"
   }
 }
-
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+    const scrollToTop = () => {
+      const currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentPosition > 0) {
+        window.requestAnimationFrame(scrollToTop);
+        window.scrollTo(0, currentPosition - currentPosition / 10); 
+      }
+    };
+    
+    scrollToTop();
+  }

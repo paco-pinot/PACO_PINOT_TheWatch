@@ -45,29 +45,99 @@ croixSeconnecter.addEventListener("click",function () {
 // _______________________BTN DARKMODE_______________________
 
 let btnDarkMode = document.querySelector(".fa-circle-half-stroke")
+let link =  document.querySelector('.navItem');
 let body = document.querySelector("body")
 let section1 = document.querySelector(".section1")
-let compteur = 0
+let link2 = document.querySelector(".home_a")
 let navbar = document.querySelector(".containerNavbar")
+let compteur = 0
+let btnDarkModeBurger = document.querySelector(".darkMode2")
+let menuBurger = document.querySelector('.menu-items')
+let navbarBurger = document.querySelector('.navbarBurger')
+let containerBurger = document.querySelector('.containerBurger')
+let burgerLines = document.querySelectorAll('.line');
+let linkBurger = document.querySelectorAll('.linkBurger');
+
 btnDarkMode.addEventListener("click",function () {
     compteur++
     if (compteur==1) {
+        containerBurger.style.backgroundColor = "black";
+        navbarBurger.style.backgroundColor = "black";
+        menuBurger.style.backgroundColor="black"
+        link2.style.color='white' 
         body.style.backgroundColor = "black"
         body.style.color = "white"
         navbar.style.backgroundColor="black"
         section1.style.backgroundColor = "black"
         connexion.style.color = "black"
         inscription.style.color = "black"
-        btnDarkMode.style.color = "red"
+        btnDarkMode.style.color = "white"
+        link.style.color = "white"
         
     }else if (compteur==2){
+        containerBurger.style.backgroundColor = "white";
+        navbarBurger.style.backgroundColor="initial"
+        menuBurger.style.backgroundColor="initial"
+        link2.style.color='initial' 
+        body.style.color = "initial"
         navbar.style.backgroundColor="white"
+        section1.style.backgroundColor = "#F0F0F2"
+        connexion.style.color = "white"
         btnDarkMode.style.color = "black"
         body.style.backgroundColor = "initial"
-        body.style.color = "initial"
-        section1.style.backgroundColor = "#F0F0F2"
+        link.style.color = "initial"
         compteur=0
+
     }
+})
+// _______________DARKMODE BURGER_______________
+
+btnDarkModeBurger.addEventListener("click",function () {
+    compteur++
+    if (compteur === 1) {
+        containerBurger.style.backgroundColor = "black";
+        navbarBurger.style.backgroundColor = "black";
+        menuBurger.style.backgroundColor = "black";
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+        navbar.style.backgroundColor = "black";
+        section1.style.backgroundColor = "black";
+        connexion.style.color = "black";
+        inscription.style.color = "black";
+        btnDarkMode.style.color = "red";
+        link.style.color = "white";
+        link2.style.color = "white";
+      
+        burgerLines.forEach(line => {
+          line.style.backgroundColor = "white";
+        });
+      
+        linkBurger.forEach(links => {
+          links.style.color = "white";
+        });
+      } else if (compteur === 2) {
+        containerBurger.style.backgroundColor = "white";
+        navbarBurger.style.backgroundColor = "white";
+        menuBurger.style.backgroundColor = "white";
+        navbar.style.backgroundColor = "white";
+        btnDarkMode.style.color = "black";
+        body.style.backgroundColor = "initial";
+        body.style.color = "initial";
+        section1.style.backgroundColor = "#F0F0F2";
+        link.style.color = "initial";
+        link2.style.color = "initial";
+      
+        burgerLines.forEach(line => {
+          line.style.backgroundColor = "black";
+        });
+      
+        linkBurger.forEach(links => {
+          links.style.color = "black";
+        });
+      
+        compteur = 0;
+      }
+      
 })
 // _________________SECTION 2 (ARRIVALS) _______________________
 
@@ -147,25 +217,34 @@ containerModalSection5.addEventListener("click",function () {
 // __________________________BTN TOP___________________________
 
 let mybutton = document.getElementById("myBtn");
-let nava = document.querySelector("nav")
+let nava = document.querySelector(".navBase")
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
     mybutton.style.display = "block";
+    mybutton.style.opacity = "1";
     nava.style.position ="fixed"
 
   } else {
     mybutton.style.display = "none";
+    mybutton.style.opacity = "0";
     nava.style.position ="relative"
   }
 }
-
-
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+    const scrollToTop = () => {
+      const currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+      if (currentPosition > 0) {
+        window.requestAnimationFrame(scrollToTop);
+        window.scrollTo(0, currentPosition - currentPosition / 10); 
+      }
+    };
+    
+    scrollToTop();
+  }
+
+
 
 

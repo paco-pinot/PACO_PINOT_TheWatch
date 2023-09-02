@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap"); /*!
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap");
+/*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
@@ -156,108 +157,66 @@
 }
 
 .fa-beat {
-  -webkit-animation-name: fa-beat;
-          animation-name: fa-beat;
-  -webkit-animation-delay: var(--fa-animation-delay, 0s);
-          animation-delay: var(--fa-animation-delay, 0s);
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 1s);
-          animation-duration: var(--fa-animation-duration, 1s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
-          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
 }
 
 .fa-bounce {
-  -webkit-animation-name: fa-bounce;
-          animation-name: fa-bounce;
-  -webkit-animation-delay: var(--fa-animation-delay, 0s);
-          animation-delay: var(--fa-animation-delay, 0s);
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 1s);
-          animation-duration: var(--fa-animation-duration, 1s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
-          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
 }
 
 .fa-fade {
-  -webkit-animation-name: fa-fade;
-          animation-name: fa-fade;
-  -webkit-animation-delay: var(--fa-animation-delay, 0s);
-          animation-delay: var(--fa-animation-delay, 0s);
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 1s);
-          animation-duration: var(--fa-animation-duration, 1s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
-          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
 }
 
 .fa-beat-fade {
-  -webkit-animation-name: fa-beat-fade;
-          animation-name: fa-beat-fade;
-  -webkit-animation-delay: var(--fa-animation-delay, 0s);
-          animation-delay: var(--fa-animation-delay, 0s);
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 1s);
-          animation-duration: var(--fa-animation-duration, 1s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
-          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
 }
 
 .fa-flip {
-  -webkit-animation-name: fa-flip;
-          animation-name: fa-flip;
-  -webkit-animation-delay: var(--fa-animation-delay, 0s);
-          animation-delay: var(--fa-animation-delay, 0s);
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 1s);
-          animation-duration: var(--fa-animation-duration, 1s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
-          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
 }
 
 .fa-shake {
-  -webkit-animation-name: fa-shake;
-          animation-name: fa-shake;
-  -webkit-animation-delay: var(--fa-animation-delay, 0s);
-          animation-delay: var(--fa-animation-delay, 0s);
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 1s);
-          animation-duration: var(--fa-animation-duration, 1s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
-          animation-timing-function: var(--fa-animation-timing, linear);
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
 }
 
 .fa-spin {
-  -webkit-animation-name: fa-spin;
-          animation-name: fa-spin;
-  -webkit-animation-delay: var(--fa-animation-delay, 0s);
-          animation-delay: var(--fa-animation-delay, 0s);
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 2s);
-          animation-duration: var(--fa-animation-duration, 2s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
-          animation-timing-function: var(--fa-animation-timing, linear);
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
 }
 
 .fa-spin-reverse {
@@ -266,44 +225,28 @@
 
 .fa-pulse,
 .fa-spin-pulse {
-  -webkit-animation-name: fa-spin;
-          animation-name: fa-spin;
-  -webkit-animation-direction: var(--fa-animation-direction, normal);
-          animation-direction: var(--fa-animation-direction, normal);
-  -webkit-animation-duration: var(--fa-animation-duration, 1s);
-          animation-duration: var(--fa-animation-duration, 1s);
-  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
-          animation-timing-function: var(--fa-animation-timing, steps(8));
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
 }
 
 @media (prefers-reduced-motion: reduce) {
   .fa-beat,
-.fa-bounce,
-.fa-fade,
-.fa-beat-fade,
-.fa-flip,
-.fa-pulse,
-.fa-shake,
-.fa-spin,
-.fa-spin-pulse {
-    -webkit-animation-delay: -1ms;
-            animation-delay: -1ms;
-    -webkit-animation-duration: 1ms;
-            animation-duration: 1ms;
-    -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
+  .fa-bounce,
+  .fa-fade,
+  .fa-beat-fade,
+  .fa-flip,
+  .fa-pulse,
+  .fa-shake,
+  .fa-spin,
+  .fa-spin-pulse {
+    animation-delay: -1ms;
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
     transition-delay: 0s;
     transition-duration: 0s;
-  }
-}
-@-webkit-keyframes fa-beat {
-  0%, 90% {
-    transform: scale(1);
-  }
-  45% {
-    transform: scale(var(--fa-beat-scale, 1.25));
   }
 }
 @keyframes fa-beat {
@@ -312,29 +255,6 @@
   }
   45% {
     transform: scale(var(--fa-beat-scale, 1.25));
-  }
-}
-@-webkit-keyframes fa-bounce {
-  0% {
-    transform: scale(1, 1) translateY(0);
-  }
-  10% {
-    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
-  }
-  30% {
-    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
-  }
-  50% {
-    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
-  }
-  57% {
-    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
-  }
-  64% {
-    transform: scale(1, 1) translateY(0);
-  }
-  100% {
-    transform: scale(1, 1) translateY(0);
   }
 }
 @keyframes fa-bounce {
@@ -360,24 +280,9 @@
     transform: scale(1, 1) translateY(0);
   }
 }
-@-webkit-keyframes fa-fade {
-  50% {
-    opacity: var(--fa-fade-opacity, 0.4);
-  }
-}
 @keyframes fa-fade {
   50% {
     opacity: var(--fa-fade-opacity, 0.4);
-  }
-}
-@-webkit-keyframes fa-beat-fade {
-  0%, 100% {
-    opacity: var(--fa-beat-fade-opacity, 0.4);
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(var(--fa-beat-fade-scale, 1.125));
   }
 }
 @keyframes fa-beat-fade {
@@ -390,43 +295,9 @@
     transform: scale(var(--fa-beat-fade-scale, 1.125));
   }
 }
-@-webkit-keyframes fa-flip {
-  50% {
-    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
-  }
-}
 @keyframes fa-flip {
   50% {
     transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
-  }
-}
-@-webkit-keyframes fa-shake {
-  0% {
-    transform: rotate(-15deg);
-  }
-  4% {
-    transform: rotate(15deg);
-  }
-  8%, 24% {
-    transform: rotate(-18deg);
-  }
-  12%, 28% {
-    transform: rotate(18deg);
-  }
-  16% {
-    transform: rotate(-22deg);
-  }
-  20% {
-    transform: rotate(22deg);
-  }
-  32% {
-    transform: rotate(-12deg);
-  }
-  36% {
-    transform: rotate(12deg);
-  }
-  40%, 100% {
-    transform: rotate(0deg);
   }
 }
 @keyframes fa-shake {
@@ -456,14 +327,6 @@
   }
   40%, 100% {
     transform: rotate(0deg);
-  }
-}
-@-webkit-keyframes fa-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 @keyframes fa-spin {
@@ -10462,18 +10325,20 @@ readers do not read off random characters that represent icons */
 
 .outer {
   color: white;
+  cursor: pointer;
 }
 
 .button {
-  padding: 5px;
   border-radius: 3px;
   width: 150px;
-  height: 30px;
-  display: block;
+  height: 40px;
   background: linear-gradient(to right, #4A4A4B 50%, red 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button:hover {
@@ -10483,16 +10348,24 @@ readers do not read off random characters that represent icons */
 @media (max-width: 800px) {
   .section1 {
     width: 100%;
+    margin-top: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .section1 .containerSection1 {
     width: 100%;
     flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url("../../../../public/img/watch.png");
+    background-position: calc(100% - 1.5em) center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   .section1 .containerSection1 p {
     font-family: "Roboto", sans-serif;
     color: grey;
+    margin-right: 3em;
   }
   .section1 .containerSection1 h2 {
     font-size: xx-large !important;
@@ -10505,7 +10378,8 @@ readers do not read off random characters that represent icons */
   }
 }
 .section2 {
-  margin-left: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 4em;
 }
 .section2 h2 {
@@ -10549,6 +10423,7 @@ readers do not read off random characters that represent icons */
 @media (max-width: 800px) {
   .section2 {
     margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10559,6 +10434,8 @@ readers do not read off random characters that represent icons */
 }
 .section3 {
   margin-top: 3em;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .section3 .containerS3 {
   display: flex;
@@ -10799,7 +10676,7 @@ readers do not read off random characters that represent icons */
 }
 .section5 .containerSection5 .containerPlay {
   width: 100%;
-  height: 55%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -10828,12 +10705,11 @@ readers do not read off random characters that represent icons */
 
 .containerModalSection5 {
   position: fixed;
-  z-index: 200;
+  z-index: 500;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
   background-color: rgba(0, 0, 0, 0.774);
   display: none;
   justify-content: center;
@@ -10844,20 +10720,26 @@ readers do not read off random characters that represent icons */
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 80%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 @media (max-width: 800px) {
   .section5 {
-    height: 100%;
+    width: 100%;
+    height: 300px;
   }
   .containerSection5 {
     background-position: center;
   }
   .bottomSection5 {
-    display: none;
-    visibility: hidden;
+    width: 50% !important;
+    gap: 0;
+    justify-content: center;
+  }
+  .bottomSection5 .next {
+    font-size: medium;
   }
 }
 .section6 {
@@ -10979,59 +10861,71 @@ readers do not read off random characters that represent icons */
   .section7 .containerSection7 {
     flex-direction: column;
   }
+  .section7 .containerSection7 .blocSection7 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .section7 .containerSection7 .blocSection7 div {
+    text-align: center;
+  }
 }
 body {
   margin: 0;
 }
 
-body {
-  width: 100%;
+html {
+  margin: 0;
   font-family: "Josefin Sans", sans-serif;
 }
 
-nav {
-  font-size: x-large;
+.navBase {
+  background-color: red;
+  font-size: large;
   top: 0px;
   width: 100%;
   z-index: 100;
   transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-nav .containerNavbar {
+.navBase .containerNavbar {
   width: 100%;
   background-color: white;
   z-index: 5000;
   display: flex;
-  gap: 10em;
-  justify-content: center;
-  padding-right: 1em;
   align-items: center;
+  justify-content: space-evenly;
 }
-nav .containerNavbar span {
+.navBase .containerNavbar .navItem {
+  height: 100%;
+}
+.navBase .containerNavbar span {
   margin: auto;
   background-color: red;
   border-radius: 10px;
   padding: 7px;
   font-weight: bold;
   bottom: 2.5em;
-  left: 59em;
   position: relative;
   color: white;
   font-size: small;
   box-shadow: 2px 2px 5px black;
 }
-nav .milieuNavbar {
+.navBase .milieuNavbar {
   display: flex;
   gap: 2em;
   align-items: center;
+  height: 100%;
 }
-nav .milieuNavbar .homeNavbar a {
+.navBase .milieuNavbar .homeNavbar a {
   text-decoration: none;
   color: black;
 }
-nav .milieuNavbar .homeNavbar a:hover {
+.navBase .milieuNavbar .homeNavbar a:hover {
   color: red;
 }
-nav .finNavbar {
+.navBase .finNavbar {
   display: flex;
   gap: 1.7em;
   align-items: center;
@@ -11040,7 +10934,7 @@ nav .finNavbar {
 .containerDropdownLatest, .dropdownBlog, .dropdownPages {
   display: none;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 45px;
   padding: 20px;
   z-index: 600;
   align-items: center;
@@ -11066,8 +10960,8 @@ nav .finNavbar {
 
 .cursor {
   cursor: pointer;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .cursor:hover {
@@ -11221,44 +11115,228 @@ nav .finNavbar {
 }
 
 #myBtn {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
   display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 99;
+  z-index: 300;
   font-size: 18px;
   border: none;
-  outline: none;
-  background-color: red;
   color: white;
   cursor: pointer;
-  padding: 25px;
-  border-radius: 50%;
+  padding: 10px;
+  background-color: transparent;
+}
+#myBtn i {
+  color: red;
+  width: 100%;
+  height: 100%;
+}
+
+#myBtn.hover .fa-arrow-turn-up {
+  font-size: 3em;
+}
+
+.burger {
+  z-index: 400;
+  display: none;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.containerBurger {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+
+.navbarBurger {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.nav-containerBurger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navbarBurger .menu-items {
+  display: flex;
+}
+
+.navbarBurger .nav-containerBurger li {
+  list-style: none;
+}
+
+.navbarBurger .nav-containerBurger a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbarBurger .nav-containerBurger a:hover {
+  font-weight: bolder;
+}
+
+.nav-containerBurger {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-containerBurger .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-containerBurger .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-containerBurger .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-containerBurger .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-containerBurger .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-containerBurger .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbarBurger .menu-items {
+  padding-top: 60px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  height: 100dvh;
+  width: 100vw;
+  z-index: 400;
+  margin-left: -40px;
+  padding-left: 50px;
+  background-color: white;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.linkssBurger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.navbarBurger .menu-items div {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logoBurger {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: center;
+  gap: 2em;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: #0e2431;
+}
+
+.nav-containerBurger input[type=checkbox]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-containerBurger input[type=checkbox]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-containerBurger input[type=checkbox]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-containerBurger input[type=checkbox]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-containerBurger input[type=checkbox]:checked ~ .logo {
+  display: none;
 }
 
 @media (max-width: 800px) {
-  nav {
+  html {
+    width: 100vw;
+  }
+  .burger {
+    display: flex;
+  }
+  .navBase {
+    display: none;
     position: relative !important;
     height: 10%;
     font-size: large;
     margin-bottom: 3em;
   }
-  nav .containerNavbar {
+  .navBase .containerNavbar {
     flex-direction: column;
     gap: 10px;
     padding-right: 0 !important;
   }
-  nav .containerNavbar span {
+  .navBase .containerNavbar span {
     display: none;
   }
-  nav .milieuNavbar {
+  .navBase .milieuNavbar {
     flex-direction: column;
     gap: 10px;
   }
-  nav .finNavbar {
+  .navBase .finNavbar {
     gap: 10px;
   }
-  nav .cursor {
+  .navBase .cursor {
     padding: 1em;
   }
   .containerDropdownLatest, .dropdownBlog, .dropdownPages {
@@ -11323,6 +11401,7 @@ footer .reseauxFooter {
     margin-right: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
+    margin-bottom: 10% !important;
   }
   footer .containerFooter {
     flex-direction: column;
@@ -11364,6 +11443,7 @@ footer .reseauxFooter {
 
 @media (max-width: 800px) {
   .section1Watch {
+    margin-top: 1em;
     height: 100%;
     font-size: 3em;
     padding-top: 2em;
@@ -11372,18 +11452,28 @@ footer .reseauxFooter {
 }
 .section2Caroussel {
   margin: 10%;
+  margin-top: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section2Caroussel .containerCaroussel {
   display: flex;
   justify-content: center;
   margin-left: 15%;
   margin-right: 15%;
+  height: 60vh;
+  width: 80vw;
   align-items: center;
   position: relative;
 }
+.section2Caroussel .containerCaroussel .imgCaroussel {
+  width: 100%;
+  height: 100%;
+}
 .section2Caroussel .containerCaroussel .imm {
-  width: 995px;
-  height: 668px;
+  width: 100% !important;
+  height: 100% !important;
 }
 .section2Caroussel .containerCaroussel .caroussel2 {
   display: none;
@@ -11406,12 +11496,14 @@ footer .reseauxFooter {
 }
 .section2Caroussel .containerCaroussel .btnLeftCaroussel {
   left: 0;
+  margin-left: 1em;
 }
 .section2Caroussel .containerCaroussel .btnLeftCaroussel:hover {
   background-color: grey;
 }
 .section2Caroussel .containerCaroussel .btnRightCaroussel {
   right: 0;
+  margin-right: 1em;
 }
 .section2Caroussel .containerCaroussel .btnRightCaroussel:hover {
   background-color: grey;
@@ -11426,6 +11518,9 @@ footer .reseauxFooter {
   .section2Caroussel .containerCaroussel {
     margin: 0 !important;
     justify-content: none !important;
+  }
+  .section2Caroussel .containerCaroussel .btnLeftCaroussel, .section2Caroussel .containerCaroussel .btnRightCaroussel {
+    padding: 10px;
   }
   .section2Caroussel .containerCaroussel .imm {
     width: 100%;
@@ -11455,36 +11550,38 @@ footer .reseauxFooter {
   line-height: 2em;
   text-align: center;
 }
-.section3Watch .containerS3Watch .quantitySection3WatchContainer {
+
+.quantitySection3WatchContainer {
   margin-top: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: xx-large;
 }
-.section3Watch .containerS3Watch .quantitySection3WatchContainer .caseS3 {
+.quantitySection3WatchContainer .caseS3 {
   border: 1px grey solid;
   color: grey;
   padding: 0.8em;
 }
-.section3Watch .containerS3Watch .quantitySection3WatchContainer .caseS3c {
+.quantitySection3WatchContainer .caseS3c {
   border: 1px grey solid;
   color: white;
   background-color: grey;
   padding: 0.8em;
 }
-.section3Watch .containerS3Watch .quantitySection3WatchContainer .quantityS3, .section3Watch .containerS3Watch .quantitySection3WatchContainer .prixS3 {
+.quantitySection3WatchContainer .quantityS3, .quantitySection3WatchContainer .prixS3 {
   color: grey;
   padding: 1em;
-  font-size: x-large;
+  font-size: medium;
 }
-.section3Watch .containerS3Watch .s {
+
+.containerAddCartS3 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 3em;
 }
-.section3Watch .containerS3Watch .s .addCartS3 {
+.containerAddCartS3 .addCartS3 {
   padding: 1.5em;
   padding-left: 2em;
   padding-right: 2em;
@@ -11494,7 +11591,7 @@ footer .reseauxFooter {
   cursor: pointer;
   color: rgba(0, 204, 255, 0.667);
 }
-.section3Watch .containerS3Watch .s .addCartS3:hover {
+.containerAddCartS3 .addCartS3:hover {
   background-color: rgba(0, 204, 255, 0.667);
   color: white;
 }
@@ -11539,7 +11636,16 @@ footer .reseauxFooter {
   height: 4em;
   border-radius: 40px;
 }
-.section4Watch .containerSection4Watch .containerEmailS4 .subscribeS4 {
+.section4Watch .containerSection4Watch .emailS4 {
+  padding-left: 30px;
+  color: grey;
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  width: 80%;
+  outline: none;
+}
+.section4Watch .containerSection4Watch .subscribeS4 {
   height: 100%;
   display: flex;
   align-items: center;
@@ -11549,19 +11655,25 @@ footer .reseauxFooter {
   padding-right: 30px;
   width: 20%;
   font-weight: bold;
+  color: #191D34;
+  transition: 0.3s;
   background-color: rgba(0, 204, 255, 0.667);
+  border: none;
+  cursor: pointer;
 }
-.section4Watch .containerSection4Watch .containerEmailS4 .subscribeS4:hover {
+.section4Watch .containerSection4Watch .subscribeS4:hover {
   background-color: white;
   color: red;
-}
-.section4Watch .containerSection4Watch .containerEmailS4 .emailS4 {
-  padding-left: 30px;
-  color: grey;
 }
 
 @media (max-width: 800px) {
   .section4Watch {
     text-align: center;
+  }
+  .subscribeS4 {
+    width: 40% !important;
+  }
+  .emailS4 {
+    width: 60% !important;
   }
 }

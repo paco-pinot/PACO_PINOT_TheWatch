@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Watchers</title>
     <link rel="stylesheet" href="../css/app.css">
     <link rel="icon" type="image/x-icon" href="../img/watch.png">
 </head>
@@ -13,20 +13,20 @@
 <body>
     <button class="btnTop" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-turn-up"></i></button>
     <header>
-        <nav>
-            <div class="containerNavbar "id="topPage">
-                <span>HOT</span>
+        <nav class="navBase">
+            <div class="containerNavbar">
+
                 <div class="milieuNavbar">
-                    <div class="homeNavbar ">
-                        <a href="../../index.html" class="cursor" >Home</a> 
+                    <div class="homeNavbar cursor">
+                        <a href="./../../index.html" class="cursor home_a">Home</a>
                     </div>
-                    <div class="shopNavbar cursor">
+                    <div class="shopNavbar cursor navItem">
                         Shop
                     </div>
-                    <div class="aboutNavbar cursor">
+                    <div class="aboutNavbar cursor navItem">
                         About
                     </div>
-                    <div class="latestNavbar cursor">
+                    <div class="latestNavbar cursor navItem">
                         Latest
                         <div class="containerDropdownLatest">
                             <div class="dropdownLatest">
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="blogNavbar cursor">
+                    <div class="blogNavbar cursor navItem">
                         Blog
                         <div class="dropdownBlog">
                             <div>
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pagesNavbar cursor">
+                    <div class="pagesNavbar cursor navItem">
                         Pages
                         <div class="dropdownPages">
                             <div>
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contactNavbar cursor">
+                    <div class="contactNavbar cursor navItem">
                         Contact
                     </div>
                 </div>
@@ -90,7 +90,36 @@
                 </div>
             </div>
         </nav>
+        <div class="burger">
+            <div class="navbarBurger">
+                <div class="containerBurger nav-containerBurger">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
 
+                    <div class="menu-items">
+                        <div class="logoBurger">
+                            <div class="darkModeBtn"> <i class="fa-solid fa-circle-half-stroke darkMode2"></i> </div>
+                            <div> <i class="fa-solid fa-magnifying-glass"></i> </div>
+                            <div> <i class="fa-regular fa-user"></i></div>
+                            <div> <i class="fa-solid fa-cart-shopping"></i></div>
+                        </div>
+                        <div class="linkssBurger">
+                            <div><a class="linkBurger" href="">Home</a></div>
+                            <div><a class="linkBurger" href="">Shop</a></div>
+                            <div><a class="linkBurger" href="">About</a></div>
+                            <div><a class="linkBurger" href="">Latest</a></div>
+                            <div><a class="linkBurger" href="">Blog</a></div>
+                            <div><a class="linkBurger" href="">Pages</a></div>
+                            <div><a class="linkBurger" href="">Contact</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- ____________________________MODAL INSCRIPTION______________________ -->
 
         <section class="modalInscription">
@@ -167,12 +196,16 @@
         </section>
     </header>
 
+
     <main>
+        <!--___________________ SECTION 1________________________  -->
         <section class="section1Watch">
             <div>
                 Watch Shop
             </div>
         </section>
+
+        <!--_____________________ SECTION 2 _______________________ -->
         <section class="section2Caroussel">
             <div class="containerCaroussel car1">
                 <button class="btnLeftCaroussel">
@@ -209,6 +242,7 @@
                     Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically
                     synthesize integrated schemas. with optimal networks.</p>
 
+                </div>
                 <div class="quantitySection3WatchContainer">
                     <div class="quantityS3">
                         Quantity
@@ -226,15 +260,14 @@
                         $5
                     </div>
                 </div>
-                <div class="s">
+                <div class="containerAddCartS3">
                     <button class="addCartS3">
                         ADD TO CART
                     </button>
                 </div>
-            </div>
         </section>
 
-        <!-- ______________SECTION4_____________________ -->
+        <!-- ______________SECTION 4_____________________ -->
 
         <section class="section4Watch">
             <div class="containerSection4Watch">
@@ -243,13 +276,18 @@
                     <p>Seamlessly empower fully researched growth strategie& and interoperable internal or 'organic" sou
                         credibly innovate granular internal</p>
                     <div class="containerEmailS4">
+                        <input type="email" class="emailS4" placeholder="Enter your mail" >
+                        <button class="subscribeS4">Subscribe</button>
+                    </div>
+                        
+                    <!-- <div class="containerEmailS4">
                         <div class="emailS4">
                             Enter your mail
                         </div>
                         <div class="subscribeS4">
                             Subscribe
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

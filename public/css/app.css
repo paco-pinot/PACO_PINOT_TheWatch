@@ -11012,6 +11012,10 @@ html {
   color: red;
 }
 
+.hoverRed:hover {
+  color: red;
+}
+
 .modalInscription {
   position: fixed;
   z-index: 200;
@@ -11171,8 +11175,9 @@ html {
   height: 100%;
 }
 
-#myBtn.hover .fa-arrow-turn-up {
-  font-size: 3em;
+#myBtn:hover .fa-arrow-turn-up {
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 
 .burger {
@@ -11302,7 +11307,7 @@ html {
 }
 .linkssBurger .linkBurger {
   text-decoration: none !important;
-  color: black !important;
+  color: black;
 }
 
 .navbarBurger .menu-items div {

@@ -51,6 +51,7 @@ let section1 = document.querySelector(".section1")
 let link2 = document.querySelector(".home_a")
 let navbar = document.querySelector(".containerNavbar")
 let compteur = 0
+
 let btnDarkModeBurger = document.querySelector(".darkMode2")
 let menuBurger = document.querySelector('.menu-items')
 let navbarBurger = document.querySelector('.navbarBurger')
@@ -64,6 +65,12 @@ btnDarkMode.addEventListener("click",function () {
         containerBurger.style.backgroundColor = "black";
         navbarBurger.style.backgroundColor = "black";
         menuBurger.style.backgroundColor="black"
+        linkBurger.forEach(links => {
+          links.style.color = "white";
+        });
+        burgerLines.forEach(line => {
+          line.style.backgroundColor = "white";
+        });
         link2.style.color='white' 
         body.style.backgroundColor = "black"
         body.style.color = "white"
@@ -78,6 +85,13 @@ btnDarkMode.addEventListener("click",function () {
         containerBurger.style.backgroundColor = "white";
         navbarBurger.style.backgroundColor="initial"
         menuBurger.style.backgroundColor="initial"
+        linkBurger.forEach(links => {
+          links.style.color = "black";
+        });
+        burgerLines.forEach(line => {
+          line.style.backgroundColor = "black";
+        });
+
         link2.style.color='initial' 
         body.style.color = "initial"
         navbar.style.backgroundColor="white"

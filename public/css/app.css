@@ -10954,6 +10954,13 @@ html {
 .navBase .milieuNavbar .homeNavbar a:hover {
   color: red;
 }
+.navBase .milieuNavbar .shopNavbar a {
+  text-decoration: none;
+  color: black;
+}
+.navBase .milieuNavbar .shopNavbar a:hover {
+  color: red;
+}
 .navBase .finNavbar {
   display: flex;
   gap: 1.7em;
@@ -11292,6 +11299,10 @@ html {
   justify-content: center;
   flex-direction: column;
   width: 90%;
+}
+.linkssBurger .linkBurger {
+  text-decoration: none !important;
+  color: black !important;
 }
 
 .navbarBurger .menu-items div {

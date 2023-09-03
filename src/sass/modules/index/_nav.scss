@@ -51,6 +51,15 @@
                 color: red;
             }
         }
+        .shopNavbar{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: red;
+            }
+        }
     }
     .finNavbar{
         display: flex;
@@ -396,6 +405,10 @@
     justify-content: center;
     flex-direction: column;
     width: 90%;
+    .linkBurger{
+        text-decoration: none!important;
+        color: black!important;
+    }
   }
   .navbarBurger .menu-items div {
     margin-bottom: 1.2rem;

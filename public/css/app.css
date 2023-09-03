@@ -11012,10 +11012,6 @@ html {
   color: red;
 }
 
-.hoverRed:hover {
-  color: red;
-}
-
 .modalInscription {
   position: fixed;
   z-index: 200;
